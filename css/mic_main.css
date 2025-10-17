@@ -4452,3 +4452,13 @@
 	}
 
 
+
+/* Nav submenu width override */
+#nav ul.menu > li > ul.submenu {
+	width: auto;
+	min-width: 18rem;
+}
+
+#nav ul.menu > li > ul.submenu li a {
+	white-space: nowrap;
+}
