@@ -6,7 +6,6 @@ http://laninkstudio.github.io/tag/index.html
 http://laninkstudio.github.io/group/index.html
 http://laninkstudio.github.io/gallery/index.html
 http://laninkstudio.github.io/
-http://laninkstudio.github.io/tags/tattoo/
 http://laninkstudio.github.io/tags/Tattoo/
-http://laninkstudio.github.io/categories/Brush-Style/
-http://laninkstudio.github.io/categories/Pen-style/
+http://laninkstudio.github.io/categories/Click-Buy/
+http://laninkstudio.github.io/categories/Custom-Designs/
