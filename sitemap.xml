@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://laninkstudio.github.io/about/index.html</loc>
+    <loc>http://laninkstudio.github.io/custom/index.html</loc>
     
     <lastmod>2025-10-18</lastmod>
     
@@ -21,6 +21,15 @@
   
   <url>
     <loc>http://laninkstudio.github.io/payment/index.html</loc>
+    
+    <lastmod>2025-10-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/about/index.html</loc>
     
     <lastmod>2025-10-18</lastmod>
     
