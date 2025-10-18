@@ -76,18 +76,12 @@
 		
 <!-- Layouts -->
 
-    <!-- Tags Cloud -->
-    
-<link rel="stylesheet" href="/css/item.css" />
-<style >
-    .row a{
-        border-bottom: none;
-    }
-    .special{
-        padding: 0;
-        padding: 2rem;
-    }
-</style>
+
+
+<!--  代码渲染  -->
+<link rel="stylesheet" href="/css/prism_coy.css" />
+<link rel="stylesheet" href="/css/typo.css" />
+<!-- 文章页 -->
 <body class="is-loading">
     <!-- Wrapper 外包 s-->
     <div id="wrapper" class="fade-in">
@@ -132,8 +126,8 @@
 		        </li>
 		        
 		        <li>
-		            <a href="/tag/" title="Tag">
-		                Tag
+		            <a href="/contact/" title="Contact">
+		                Contact
 		            </a>
 		        </li>
 		        
@@ -151,35 +145,61 @@
                     
 			</ul>
 </nav>
-                <div id="main">
-            <!-- Main first s-->
-            <article id="me" class="panel" style="background-color: #d5c5af;"> 
-                <header style="color: #000000">
-                    <h1>Lán Ink Studio</h1>
-                    <p>Discover your ink. Discover your story.</p>
-                </header>
-                <a href="" class="jumplink pic">
-                    <span class="arrow icon fa-chevron-right"><span></span></span>
-                    <img src="" alt="" />
-                </a>
-            </article>
-            <!-- Main first e-->
+
+        <div id="main" >
+            <div class ="post_page_title_img" style="height: 25rem;background-image: url(/images/bracelets/1.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
+                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >Contact</h2></a>
+            </div>
+            <!-- Post -->
+            <div class="typo" style="padding: 3rem; background-color: #fffbef;">
+                <p>At <strong>Lánthé</strong>, we believe elegance doesn’t shout — it whispers.</p>
+<p>Drawing from the grace of the <strong>orchid</strong>, every accessory is crafted to reflect strength wrapped in softness. Whether you’re dressing for a quiet morning or a shining night, Lánthé is made to <strong>bloom with you</strong>.</p>
+<p>We are more than accessories. We are quiet confidence, poetic detail, and modern grace.</p>
+<p>&nbsp;</p>
+
+            </div>
+
+            <!-- Post Comments -->
+            
+    <!-- 使用 DISQUS -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'http://laninkstudio.github.io/contact/index.html';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://laninkstudio.github.io/contact/index.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+
+<script type="text/ls-javascript" id="disqus-thread-script">
+    queue.offer(function() {
+            (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document;
+                var s = d.createElement('script');
+                s.src = '//detarblasigt.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', + new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        });
+</script>
+
+</div>
+
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+
         </div>
-
-        <section class="special">
-                            <div class="row" style="border-bottom: none;">
-
-        <a href="/tags/Tattoo/" style="font-size: 16px;">Tattoo</a>
-
-                            </div>
-                    
-        </section>
-
         <!-- Copyright 版权 start -->
                 <div id="copyright">
             <ul>
-                <li>&copy;Powered By <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/" style="border-bottom: none;">hexo</a></li>
-                <li>Owner: <a target="_blank" rel="noopener" href="http://miccall.tech " style="border-bottom: none;">detarblasigt</a></li>
+                <li>© <a href="https://laninkstudio.github.io/" style="border-bottom: none;">Lán Ink Studio</a>. All rights reserved. </li><br/>
+                <li>Unauthorized use, reproduction, modification without a valid license or purchase is strictly prohibited.</li>
             </ul>
             
 				<span id="busuanzi_container_site_pv"> 2025 </span> 
@@ -187,6 +207,7 @@
         </div>
     </div>
 </body>
+
 
 
  	
