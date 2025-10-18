@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://laninkstudio.github.io/payment/index.html</loc>
+    <loc>http://laninkstudio.github.io/about/index.html</loc>
     
-    <lastmod>2025-10-17</lastmod>
+    <lastmod>2025-10-18</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,16 +13,16 @@
   <url>
     <loc>http://laninkstudio.github.io/contact/index.html</loc>
     
-    <lastmod>2025-10-17</lastmod>
+    <lastmod>2025-10-18</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://laninkstudio.github.io/about/index.html</loc>
+    <loc>http://laninkstudio.github.io/payment/index.html</loc>
     
-    <lastmod>2025-10-17</lastmod>
+    <lastmod>2025-10-18</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -31,7 +31,7 @@
   <url>
     <loc>http://laninkstudio.github.io/2025/10/13/Signature%20Tattoo%20Designs/</loc>
     
-    <lastmod>2025-10-17</lastmod>
+    <lastmod>2025-10-18</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -40,7 +40,7 @@
   <url>
     <loc>http://laninkstudio.github.io/2025/10/13/Custom%20Tattoo%20Designs/</loc>
     
-    <lastmod>2025-10-17</lastmod>
+    <lastmod>2025-10-18</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -83,14 +83,14 @@
 
   
   <url>
-    <loc>http://laninkstudio.github.io/categories/Click-Buy-Designs/</loc>
+    <loc>http://laninkstudio.github.io/categories/Custom-Designs/</loc>
     <lastmod>2025-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://laninkstudio.github.io/categories/Custom-Designs/</loc>
+    <loc>http://laninkstudio.github.io/categories/Click-Buy-Designs/</loc>
     <lastmod>2025-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

@@ -2197,8 +2197,8 @@
 			#me .pic:before {
 				content: '';
 				position: absolute;
-				background: url("/img/me.jpg");
-				width: 100%;
+				background: url("/img/show_now.png");
+				width: 10%;
 				z-index: 1;
 			}
 
@@ -2306,7 +2306,7 @@
 						margin-top: -1.375em;
 						width: 2.75em;
 						height: 2.75em;
-						background: #000;
+						background: #724914; 
 						background: rgba(0, 0, 0, 0.75);
 						color: #ffffff;
 						text-align: center;
@@ -2346,18 +2346,61 @@
 						text-transform : Capitalize;
 						position: absolute;
 						left: 0;
-						bottom: 52.5%;
+						bottom: 62.5%;
 						font-size: 3.5rem;
 						margin: 0;
+						color: #724914;
 					}
 
-					#me header > p {
+					#me header > p.para1 {
 						position: absolute;
 						left: 0;
-						top: 52.5%;
-						font-size: 1.5em;
-						letter-spacing: -0.015em;
+						bottom: 37.5%;
+						font-size: 1em;
+						letter-spacing: 0.005em;
 						margin-top: 0;
+						color: #724914;
+						font-weight: bold;
+						font-family: Open sans;
+					}
+
+					#me header > p.para2 {
+						position: absolute;
+						left: 0;
+						bottom: 25%;
+						font-size: 1em;
+						letter-spacing: 0.005em;
+						margin-top: 0;
+						color: #724914;
+						font-weight: bold;
+						font-family: Open sans;
+					}
+
+					#me header > p.para3 {
+						position: absolute;
+						left: 0;
+						bottom: 12.5%;
+						font-size: 1em;
+						letter-spacing: 0.005em;
+						margin-top: 0;
+						color: #724914;
+						font-weight: bold;
+						font-family: Georgia, 'Times New Roman', Times, serif;
+					}
+
+					#me header > p.para3 span { 
+						background-color: #e9e4d7f7; 
+					}
+
+					#me header > p.para4 {
+						position: absolute;
+						left: 0;
+						bottom: 0.5%;
+						font-size: 1em;
+						letter-spacing: 0.005em;
+						margin-top: 0;
+						color: #724914;
+						font-family: Open sans;
 					}
 
 	}
