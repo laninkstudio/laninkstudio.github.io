@@ -59,7 +59,7 @@ blockquote {
   position: relative;
   color: #999;
   font-weight: 400;
-  border-left: 1px solid #1abc9c;
+  border-left: 1px solid #93572781;
   padding-left: 1em;
   margin: 1em 3em 1em 2em;
 }
@@ -88,7 +88,7 @@ del {
 
 address, caption, cite, code, dfn, em, th, var {
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
 }
 
 /* 去掉列表前的标识, li 会继承，大部分网站通常用列表来很多内容，所以应该当去 */
@@ -200,7 +200,7 @@ figcaption {
 
 strong, b {
   font-weight: bold;
-  color: #000;
+  color: #131313;
 }
 
 /* 可拖动文件添加拖动手势 */
@@ -243,10 +243,11 @@ strong, b {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
-  font-weight: 100;
-  color: #000;
-  line-height: 1.35;
+  /* font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: #131313;
+  line-height: 1.2;
 }
 
 /* 标题应该更贴紧内容，并与其他块区分，margin 值要相应做优化 */
@@ -254,7 +255,7 @@ h1, h2, h3, h4, h5, h6 {
 .typo-h1, .typo-h2, .typo-h3, .typo-h4, .typo-h5, .typo-h6 {
   margin-top: 1.2em;
   margin-bottom: 0.6em;
-  line-height: 1.35;
+  line-height: 1.2;
 }
 
 .typo h1, .typo-h1 {
@@ -270,6 +271,7 @@ h1, h2, h3, h4, h5, h6 {
 .typo h3, .typo-h3 {
   font-size: 1.6em;
   text-transform: none;
+  font-weight: bold;
 }
 
 .typo h4, .typo-h4 {
@@ -282,7 +284,30 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: none;
 }
 
+.typo li p {
+  margin-bottom: 0;
+  font-weight: normal;
+  color: #131313;
+}
+.typo p {
+  font-weight: normal;
+  color: #131313;
+}
+
+
 /* 在文章中，应该还原 ul 和 ol 的样式 */
+.typo li {
+  margin-left: 1.3em;
+  list-style: disc;
+  font-weight: normal;
+  color: #131313;
+}
+
+.typo em {
+  font-style: italic;
+  color: #131313;
+}
+
 .typo ul, .typo-ul {
   margin-left: 1.3em;
   list-style: disc;
@@ -351,3 +376,4 @@ h1, h2, h3, h4, h5, h6 {
 .typo img {
   max-width: 100%;
 }
+
