@@ -2,7 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://laninkstudio.github.io/payment/index.html</loc>
+    
+    <lastmod>2025-10-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/custom/index.html</loc>
+    
+    <lastmod>2025-10-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/contact/index.html</loc>
+    
+    <lastmod>2025-10-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/2025/10/21/Bravery/</loc>
+    
+    <lastmod>2025-10-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://laninkstudio.github.io/about/index.html</loc>
+    
+    <lastmod>2025-10-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/2025/10/21/Stillness/</loc>
     
     <lastmod>2025-10-22</lastmod>
     
@@ -13,43 +58,7 @@
   <url>
     <loc>http://laninkstudio.github.io/2025/10/21/Love/</loc>
     
-    <lastmod>2025-10-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://laninkstudio.github.io/2025/10/21/Dream/</loc>
-    
-    <lastmod>2025-10-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://laninkstudio.github.io/2025/10/21/Blessing/</loc>
-    
-    <lastmod>2025-10-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://laninkstudio.github.io/2025/10/21/Stillness/</loc>
-    
-    <lastmod>2025-10-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://laninkstudio.github.io/2025/10/21/Bravery/</loc>
-    
-    <lastmod>2025-10-21</lastmod>
+    <lastmod>2025-10-22</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -58,34 +67,25 @@
   <url>
     <loc>http://laninkstudio.github.io/2025/10/21/Harmony/</loc>
     
-    <lastmod>2025-10-21</lastmod>
+    <lastmod>2025-10-22</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://laninkstudio.github.io/contact/index.html</loc>
+    <loc>http://laninkstudio.github.io/2025/10/21/Blessing/</loc>
     
-    <lastmod>2025-10-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://laninkstudio.github.io/custom/index.html</loc>
-    
-    <lastmod>2025-10-18</lastmod>
+    <lastmod>2025-10-22</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://laninkstudio.github.io/payment/index.html</loc>
+    <loc>http://laninkstudio.github.io/2025/10/21/Dream/</loc>
     
-    <lastmod>2025-10-18</lastmod>
+    <lastmod>2025-10-22</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -128,7 +128,7 @@
 
   
   <url>
-    <loc>http://laninkstudio.github.io/categories/Click-Buy-Designs/</loc>
+    <loc>http://laninkstudio.github.io/categories/One-Character/</loc>
     <lastmod>2025-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
