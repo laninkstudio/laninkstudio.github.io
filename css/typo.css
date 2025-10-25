@@ -244,7 +244,7 @@ strong, b {
 
 h1, h2, h3, h4, h5, h6 {
   /* font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif; */
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
   font-weight: normal;
   color: #131313;
   line-height: 1.2;
@@ -288,10 +288,12 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
   font-weight: normal;
   color: #131313;
+  font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
 }
 .typo p {
   font-weight: normal;
   color: #131313;
+  font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
 }
 
 
@@ -301,6 +303,7 @@ h1, h2, h3, h4, h5, h6 {
   list-style: disc;
   font-weight: normal;
   color: #131313;
+  font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
 }
 
 .typo em {

@@ -95,7 +95,7 @@
                 if (path.indexOf('categories/') === 0) {
                     var parts = path.split('/');
                     var slug = parts.length > 1 ? parts[1] : '';
-                    var list = ["Click-Buy-Designs","Custom-Designs"];
+                    var list = ["One-Character","Two-Character-Words","Short-Idioms-and-Phrases"];
                     if (Array.isArray(list) && list.indexOf(slug) !== -1) {
                         var introEl = document.getElementById('intro');
                         if (introEl) introEl.style.display = 'none';
