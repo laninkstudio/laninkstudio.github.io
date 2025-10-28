@@ -411,8 +411,8 @@ td {
   }
 
   ul {
-    padding-left: 0;
-    /* padding-inline-start: 0; */
+    /* padding-left: 0; */
+    padding-inline-start: 0;
   }
 
   /* 让“Buy Now”按钮不再右浮动 */
