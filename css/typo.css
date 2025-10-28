@@ -380,3 +380,38 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 100%;
 }
 
+
+/* 表格 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  vertical-align: top;
+  padding: 10px;
+}
+
+/* 移动端：屏幕宽度小于768px时改为纵向排列 */
+@media (max-width: 768px) {
+  table, tr, td {
+    display: block;
+    width: 100%;
+  }
+
+  td img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  ul {
+    padding-left: 1.2rem;
+  }
+
+  /* 让“Buy Now”按钮不再右浮动 */
+  a img {
+    float: none !important;
+    display: block;
+    margin: 1rem auto;
+  }
+}
