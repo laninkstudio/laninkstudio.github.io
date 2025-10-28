@@ -299,7 +299,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* 在文章中，应该还原 ul 和 ol 的样式 */
 .typo li {
-  margin-left: 1.3em;
+  margin-left: 1.3rem;
   list-style: disc;
   font-weight: normal;
   color: #131313;
@@ -312,7 +312,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .typo ul, .typo-ul {
-  margin-left: 1.3em;
+  margin-left: 0;
   list-style: disc;
 }
 
@@ -333,7 +333,7 @@ h1, h2, h3, h4, h5, h6 {
 /* 同 ul/ol，在文章中应用 table 基本格式 */
 .typo table th, .typo table td, .typo-table th, .typo-table td, .typo table caption {
   border: 1px solid #ddd;
-  padding: 0.5em 1em;
+  padding: 0.5em 0.5em;
   color: #666;
 }
 
@@ -411,14 +411,22 @@ td {
   }
 
   ul {
-    /* padding-left: 0; */
-    padding-inline-start: 0;
+    list-style-position: inside;
+    margin-left: 0;
+    padding-left: 0;
+    /* padding-inline-start: 3rem; */
   }
+  
+  /* li {
+    margin-left: 0;
+  } */
+
 
   /* 让“Buy Now”按钮不再右浮动 */
-  a img {
+  .buy-now {
     float: none !important;
     display: block;
     margin: 1rem auto;
+    height: 2.5rem; 
   }
 }
