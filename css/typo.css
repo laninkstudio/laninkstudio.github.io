@@ -392,6 +392,12 @@ td {
   padding: 10px;
 }
 
+.buy-now {
+  height: 3rem; 
+  position:relative; 
+  float:right;
+}
+
 /* 移动端：屏幕宽度小于768px时改为纵向排列 */
 @media (max-width: 768px) {
   table, tr, td {
@@ -405,7 +411,8 @@ td {
   }
 
   ul {
-    padding-left: 1.2rem;
+    padding-left: 0;
+    /* padding-inline-start: 0; */
   }
 
   /* 让“Buy Now”按钮不再右浮动 */
