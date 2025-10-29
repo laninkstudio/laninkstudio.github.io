@@ -397,24 +397,9 @@ td {
   height: 3rem; 
   position:relative;
   vertical-align: middle;
-  /* float:right; */
+  float:right;
   /* margin-top: 1rem; */
 }
-
-/* td.price_cell {
-  text-align: center;
-} */
-
-/* .price_display {
-  text-align: center;
-  font-size: 1.5rem;
-  margin-top: 1rem;
-} */
-
-/* .price_cell{
-  text-align: center;        
-  vertical-align: middle; 
-} */
 
 table.price_button_table {
   margin-left: auto;
@@ -422,7 +407,7 @@ table.price_button_table {
   text-align: center;
   padding: 0;
   font-size: 1.5rem;
-  display: grid;
+  /* grid-template-columns: 1fr 1fr; */
   
 }
 
@@ -432,9 +417,16 @@ td.price_cell{
   vertical-align: middle;
 }
 td.button_cell{
-  background-color: #79572a;
+  /* background-color: #79572a; */
   vertical-align: middle;
 }
+/* td.product_description_top {
+  background-color: #ccb3a1de;
+} */
+/* table.product_section_top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+} */
 
 /* 移动端：屏幕宽度小于768px时改为纵向排列 */
 @media (max-width: 768px) {
@@ -475,7 +467,6 @@ td.button_cell{
   .buy-now {
     float: none !important;
     display: block;
-    /* margin: 1rem auto; */
     height: 2.5rem; 
   }
 }
