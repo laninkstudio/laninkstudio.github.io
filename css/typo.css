@@ -382,9 +382,10 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* 表格 */
-table {
+.typo table {
   width: 100%;
   border-collapse: collapse;
+  
 }
 
 td {
@@ -394,9 +395,45 @@ td {
 
 .buy-now {
   height: 3rem; 
-  position:relative; 
-  float:right;
-  margin-top: 0rem;
+  position:relative;
+  vertical-align: middle;
+  /* float:right; */
+  /* margin-top: 1rem; */
+}
+
+/* td.price_cell {
+  text-align: center;
+} */
+
+/* .price_display {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+} */
+
+/* .price_cell{
+  text-align: center;        
+  vertical-align: middle; 
+} */
+
+table.price_button_table {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 0;
+  font-size: 1.5rem;
+  display: grid;
+  
+}
+
+td.price_cell{
+  background-color: #ccb3a1de;
+  color: #ffffff;
+  vertical-align: middle;
+}
+td.button_cell{
+  background-color: #79572a;
+  vertical-align: middle;
 }
 
 /* 移动端：屏幕宽度小于768px时改为纵向排列 */
@@ -404,6 +441,18 @@ td {
   table, tr, td {
     display: block;
     width: 100%;
+  }
+
+  table.price_button_table {
+    display: grid;
+  }
+
+  td.price_cell{
+    background-color: #ccb3a1de;
+    color: #ffffff;
+  }
+  td.button_cell{
+    background-color: #79572a;
   }
 
   td img {
@@ -426,7 +475,7 @@ td {
   .buy-now {
     float: none !important;
     display: block;
-    margin: 1rem auto;
+    /* margin: 1rem auto; */
     height: 2.5rem; 
   }
 }
