@@ -381,7 +381,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-/* 表格 */
+/* table */
 .typo table {
   width: 100%;
   border-collapse: collapse;
@@ -398,21 +398,10 @@ td {
   vertical-align: middle;
 }
 
-td.product_description_top_td{
-  vertical-align: bottom;
-}
-
-table.product_description_top_table{
-  border-spacing: 0;         
-  margin: 0;                
-  padding: 0;
-}
 
 /* This is where buy now button float right */
 table.price_button_table {
-  border-spacing: 0;        
   margin: 0;               
-  padding: 0;
   float: right;
 
   width: auto;
@@ -420,20 +409,6 @@ table.price_button_table {
   font-size: 1.5rem;
 }
 
-td.price_button_td {
-  vertical-align: bottom;
-  border-spacing: 0;         
-  margin: 0;                
-  padding: 0;
-}
-
-td.product_description_text_td{
-  vertical-align: bottom;
-  border-spacing: 0;         
-  margin: 0;                
-  padding: 0;
-  left: 0;
-}
 
 td.price_cell{
   background-color: #ccb3a1de;
@@ -456,14 +431,6 @@ td.button_cell{
     float: none !important;
   }
 
-  td.price_cell{
-    background-color: #ccb3a1de;
-    color: #ffffff;
-  }
-  td.button_cell{
-    background-color: #79572a;
-  }
-
   td img {
     display: block;
     margin: 0 auto;
@@ -472,10 +439,6 @@ td.button_cell{
   .typo ul, .typo-ul {
     margin-left: 0;
     list-style-position: inside;
-    padding-left: 0;
-  }
-  ul.product_description_text_ul {
-    margin-left: 0;
     padding-left: 0;
   }
 
