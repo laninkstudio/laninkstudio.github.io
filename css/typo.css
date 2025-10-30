@@ -385,7 +385,6 @@ h1, h2, h3, h4, h5, h6 {
 .typo table {
   width: 100%;
   border-collapse: collapse;
-  
 }
 
 td {
@@ -397,36 +396,53 @@ td {
   height: 3rem; 
   position:relative;
   vertical-align: middle;
-  float:right;
-  /* margin-top: 1rem; */
 }
 
-table.price_button_table {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+td.product_description_top_td{
+  vertical-align: bottom;
+}
+
+table.product_description_top_table{
+  border-spacing: 0;         
+  margin: 0;                
   padding: 0;
+}
+
+/* This is where buy now button float right */
+table.price_button_table {
+  border-spacing: 0;        
+  margin: 0;               
+  padding: 0;
+  float: right;
+
+  width: auto;
+  text-align: center;
   font-size: 1.5rem;
-  /* grid-template-columns: 1fr 1fr; */
-  
+}
+
+td.price_button_td {
+  vertical-align: bottom;
+  border-spacing: 0;         
+  margin: 0;                
+  padding: 0;
+}
+
+td.product_description_text_td{
+  vertical-align: bottom;
+  border-spacing: 0;         
+  margin: 0;                
+  padding: 0;
+  left: 0;
 }
 
 td.price_cell{
   background-color: #ccb3a1de;
-  color: #ffffff;
   vertical-align: middle;
 }
 td.button_cell{
-  /* background-color: #79572a; */
+  background-color: #79572a;
   vertical-align: middle;
 }
-/* td.product_description_top {
-  background-color: #ccb3a1de;
-} */
-/* table.product_section_top {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-} */
 
 /* 移动端：屏幕宽度小于768px时改为纵向排列 */
 @media (max-width: 768px) {
@@ -437,6 +453,7 @@ td.button_cell{
 
   table.price_button_table {
     display: grid;
+    float: none !important;
   }
 
   td.price_cell{
@@ -451,21 +468,19 @@ td.button_cell{
     display: block;
     margin: 0 auto;
   }
-
-  ul {
-
-    /* padding-inline-start: 3rem; */
-  }
   
   .typo ul, .typo-ul {
     margin-left: 0;
     list-style-position: inside;
     padding-left: 0;
   }
+  ul.product_description_text_ul {
+    margin-left: 0;
+    padding-left: 0;
+  }
 
-  /* 让“Buy Now”按钮不再右浮动 */
   .buy-now {
-    float: none !important;
+    /* float: none !important; */
     display: block;
     height: 2.5rem; 
   }
