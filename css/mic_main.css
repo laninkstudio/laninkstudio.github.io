@@ -320,11 +320,17 @@
 
 				#intro p.slogan1, #intro p.slogan2, #intro p.slogan3 {
 					font-size: 1rem;
-					margin-top: 0;
+					margin-top: 0.3rem;
 				}
 
+				/* #intro p.slogan3 {
+					font-size: 1rem;
+					margin-top: 0.3rem;
+					font-weight: bold;
+				} */
+
 				#intro .actions {
-					display: none;
+					/* display: none; */
 				}
 
 		}
