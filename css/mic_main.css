@@ -207,8 +207,15 @@
 		#intro p {
 			font-size: 1.5rem;
 			font-style: italic;
-			margin-top: -0.25rem;
 			text-align: center;
+		}
+
+		#intro p.slogan1 {
+			margin: 0;
+		}
+
+		#intro p.slogan2 {
+			margin: 0;
 		}
 
 		#intro + #header {
@@ -290,6 +297,7 @@
 
 		}
 
+
 		@media screen and (max-width: 500px) {
 
 			#intro {
@@ -304,8 +312,7 @@
 				}
 
 				#intro p {
-					font-size: 1rem;
-					margin-top: 0rem;
+					font-size: 1.2rem;
 				}
 
 				#intro .actions {
@@ -1224,6 +1231,10 @@
 					font-size: 1.75rem;
 					border-width: 3px !important;
 				}
+
+			#intro p.slogan1, #intro p.slogan2, #intro p.slogan4 {
+					margin-top: 2rem;
+			}
 
 		}
 
