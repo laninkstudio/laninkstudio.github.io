@@ -2555,6 +2555,27 @@
 		/* me */
 		#me header > p.para0 {
 			display: block;
+			font-size: 1.5rem;
+			text-transform : Capitalize;
+			color: #5e3c11;
+			margin-top: 2rem;
+			margin-bottom: 1.5rem;
+		}
+
+		#me header > p.para1 {
+			display: none;
+		}
+
+		#me header > p.para3 {
+			font-size: 1.2rem;
+		}
+
+	}
+
+	@media screen and (max-width: 400px) {
+		/* me */
+		#me header > p.para0 {
+			display: block;
 			font-size: 1.4em;
 			text-transform : Capitalize;
 			color: #5e3c11;
