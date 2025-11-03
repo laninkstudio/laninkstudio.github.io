@@ -308,14 +308,14 @@
 		@media screen and (max-width: 500px) {
 
 			#intro {
-				padding: 3rem 2rem 1rem 2rem ;
+				padding: 3rem 1.5rem 1rem 1.5rem ;
 				min-height: 80vh;
 			}
 
 				#intro h1 {
-					font-size: 5rem;
+					font-size: 4rem;
 					line-height: 1.1;
-					margin-bottom: 6rem;
+					margin-bottom: 5rem;
 				}
 
 				#intro p.slogan1, #intro p.slogan2, #intro p.slogan3 {
@@ -326,7 +326,7 @@
 
 
 				#intro .actions {
-					display: none;
+					display:grid;
 				}
 
 		}
