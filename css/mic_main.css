@@ -2378,6 +2378,7 @@
 					font-weight: bold;
 					font-family: Open sans;
 					text-align: center;
+					
 				}
 
 				#me header > p.para1 {
@@ -2385,12 +2386,14 @@
 					text-transform : Capitalize;
 					/* bottom: 55%; */
 					color: #5e3c11;
-					margin-top: 2rem;
+					margin-top: 3.5rem;
+					margin-bottom:0;
 					/* text-align: center; */
 				}
 
 				#me header > p.para2 {
 					font-size: 1.3em;
+					margin-bottom: 1.2rem;
 					/* bottom: 40%;
 					text-align: center; */
 				}
@@ -2402,7 +2405,7 @@
 				} */
 				.shop-now {
 					height: 3rem;
-					position:relative; 
+					position: relative; 
 					/* vertical-align: middle; */
 					/* left: 0; 
 					right: 10%; */
@@ -2511,15 +2514,35 @@
 					font-family: Open sans;
 					color: #724914;
 					font-weight: bold;
+					margin-top: 0.5 rem;
 				}
+
 
 				#me header > p.para1 {
 					font-size: 1.2em;
-					color: #5f3a09;
+					text-transform : Capitalize;
+					/* bottom: 55%; */
+					color: #5e3c11;
+					margin-top: 1.1rem;
+					margin-bottom: 1.5rem;
+					/* text-align: center; */
 				}
 
 				#me header > p.para2 {
+					margin-bottom: 1rem;
+					/* bottom: 40%;
+					text-align: center; */
 				}
+				.shop-now {
+					height: 2.5rem;
+					position: relative;
+					margin-bottom: 1.5rem;
+				}
+				.image-link {
+					border-bottom: 0;
+					text-decoration: none;
+				}
+
 
 	}
 
