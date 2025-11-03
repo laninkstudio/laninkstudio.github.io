@@ -2387,17 +2387,17 @@
 				}
 
 				#me header > p.para1 {
-					font-size: 2em;
+					font-size: 2.4em;
 					text-transform : Capitalize;
 					/* bottom: 55%; */
 					color: #5e3c11;
-					margin-top: 3.3rem;
+					margin-top: 2.6rem;
 					margin-bottom:0;
 					/* text-align: center; */
 				}
 
 				#me header > p.para2 {
-					font-size: 1.5em;
+					font-size: 1.8em;
 					margin-bottom: 1.2rem;
 					/* bottom: 40%;
 					text-align: center; */
@@ -2408,7 +2408,8 @@
 				}
 				.shop-now {
 					height: 3rem;
-					position: relative; 
+					position: relative;
+					margin-bottom: 5rem;
 					/* vertical-align: middle; */
 					/* left: 0; 
 					right: 10%; */
@@ -2416,6 +2417,10 @@
 					/* margin-inline: auto; 
 					width: fit-content; */
 			
+				}
+				.image-link {
+					border-bottom: 0;
+					text-decoration: none;
 				}
 				
 
@@ -2427,6 +2432,25 @@
 		position:relative; 
 		vertical-align: middle;
 
+	}
+
+	@media screen and (max-width: 854px) {
+		#me header > p.para1 {
+			font-size: 2.1em;
+			text-transform : Capitalize;
+			/* bottom: 55%; */
+			color: #5e3c11;
+			margin-top: 2.6rem;
+			margin-bottom:0;
+			/* text-align: center; */
+		}
+
+		#me header > p.para2 {
+			font-size: 1.5em;
+			margin-bottom: 1.2rem;
+			/* bottom: 40%;
+			text-align: center; */
+		}
 	}
 	
 
@@ -2524,11 +2548,11 @@
 				}
 
 				#me header > p.para1 {
-					font-size: 1.4em;
+					font-size: 1.7em;
 					text-transform : Capitalize;
 					color: #5e3c11;
 					margin-top: 2rem;
-					margin-bottom: 1.5rem;
+					margin-bottom: 2.3rem;
 				}
 
 				#me header > p.para2 {
@@ -2537,7 +2561,8 @@
 				}
 
 				#me header > p.para3 {
-					margin-bottom: 1.5rem;
+					font-size: 1.4em;
+					margin-bottom: 2.5rem;
 				}
 				.shop-now {
 					height: 2.5rem;
@@ -2551,16 +2576,22 @@
 
 
 	}
+	/* @media screen and (max-width: 622px) {
+		#me header > p.para1 {
+			font-size: 1.5em;
+		}
+	} */
 
-	@media screen and (max-width: 547px) {
+
+	@media screen and (max-width: 622px) {
 		/* me */
 		#me header > p.para0 {
 			display: block;
-			font-size: 1.5rem;
+			font-size: 2em;
 			text-transform : Capitalize;
 			color: #5e3c11;
 			margin-top: 2rem;
-			margin-bottom: 1.5rem;
+			margin-bottom: 2.5rem;
 		}
 
 		#me header > p.para1 {
@@ -2568,20 +2599,20 @@
 		}
 
 		#me header > p.para3 {
-			font-size: 1.2rem;
+			font-size: 1.4em;
 		}
 
 	}
 
-	@media screen and (max-width: 406px) {
+	@media screen and (max-width: 450px) {
 		/* me */
 		#me header > p.para0 {
 			display: block;
-			font-size: 1.4em;
+			font-size: 1.6em;
 			text-transform : Capitalize;
 			color: #5e3c11;
 			margin-top: 2rem;
-			margin-bottom: 1.5rem;
+			margin-bottom: 2rem;
 		}
 
 		#me header > p.para1 {
@@ -2589,7 +2620,16 @@
 		}
 
 		#me header > p.para3 {
-			font-size: 1.1rem;
+			font-size: 1.15em;
+			margin-bottom: 2rem;
+		}
+
+	}
+
+	@media screen and (max-width: 358px) {
+
+		#me header > p.para0 {
+			font-size: 1.45em;
 		}
 
 	}
