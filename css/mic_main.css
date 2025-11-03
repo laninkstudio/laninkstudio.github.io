@@ -2381,6 +2381,9 @@
 					text-align: center;
 					
 				}
+				#me header > p.para0 {
+					display: none;
+				}
 
 				#me header > p.para1 {
 					font-size: 1.8em;
@@ -2399,11 +2402,9 @@
 					text-align: center; */
 				}
 
-				/* #me header > p.para3 {
-					bottom: 25%;
-					text-align: center;
-					font-family: Georgia, 'Times New Roman', Times, serif;
-				} */
+				#me header > p.para3 {
+					display: none;
+				}
 				.shop-now {
 					height: 3rem;
 					position: relative; 
@@ -2511,33 +2512,36 @@
 
 				#me header > p {
 					text-align: center;
-					font-size: 1em;
+					font-size: 1.2em;
 					font-family: Open sans;
 					color: #724914;
 					font-weight: bold;
 					margin-top: 0.5 rem;
 				}
-
+				#me header > p.para0 {
+					display: none;
+				}
 
 				#me header > p.para1 {
-					font-size: 1.2em;
+					font-size: 1.4em;
 					text-transform : Capitalize;
-					/* bottom: 55%; */
 					color: #5e3c11;
-					margin-top: 1.1rem;
+					margin-top: 2rem;
 					margin-bottom: 1.5rem;
-					/* text-align: center; */
 				}
 
 				#me header > p.para2 {
-					margin-bottom: 1rem;
-					/* bottom: 40%;
-					text-align: center; */
+					/* margin-bottom: 1rem; */
+					display: none;
+				}
+
+				#me header > p.para3 {
+					margin-bottom: 1.5rem;
 				}
 				.shop-now {
 					height: 2.5rem;
 					position: relative;
-					margin-bottom: 1.5rem;
+					margin-bottom: 3rem;
 				}
 				.image-link {
 					border-bottom: 0;
@@ -2546,6 +2550,29 @@
 
 
 	}
+
+	@media screen and (max-width: 530px) {
+		/* me */
+		#me header > p.para0 {
+			display: block;
+			font-size: 1.4em;
+			text-transform : Capitalize;
+			color: #5e3c11;
+			margin-top: 2rem;
+			margin-bottom: 1.5rem;
+		}
+
+		#me header > p.para1 {
+			display: none;
+		}
+
+		#me header > p.para3 {
+			font-size: 1.05rem;
+		}
+
+	}
+
+
 
 /*-----------------artivle------------*/
 /* link_containers */
