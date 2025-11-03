@@ -2377,7 +2377,8 @@
 					letter-spacing: 0.005em;
 					color: #724914;
 					font-weight: bold;
-					font-family: Open sans;
+					font-family: Tahoma;
+					/* font-family: Open sans; */
 					text-align: center;
 					
 				}
@@ -2386,17 +2387,17 @@
 				}
 
 				#me header > p.para1 {
-					font-size: 1.8em;
+					font-size: 2em;
 					text-transform : Capitalize;
 					/* bottom: 55%; */
 					color: #5e3c11;
-					margin-top: 3.5rem;
+					margin-top: 3.3rem;
 					margin-bottom:0;
 					/* text-align: center; */
 				}
 
 				#me header > p.para2 {
-					font-size: 1.3em;
+					font-size: 1.5em;
 					margin-bottom: 1.2rem;
 					/* bottom: 40%;
 					text-align: center; */
@@ -2513,7 +2514,7 @@
 				#me header > p {
 					text-align: center;
 					font-size: 1.2em;
-					font-family: Open sans;
+					font-family: Tahoma;
 					color: #724914;
 					font-weight: bold;
 					margin-top: 0.5 rem;
@@ -2551,7 +2552,7 @@
 
 	}
 
-	@media screen and (max-width: 530px) {
+	@media screen and (max-width: 547px) {
 		/* me */
 		#me header > p.para0 {
 			display: block;
@@ -2572,7 +2573,7 @@
 
 	}
 
-	@media screen and (max-width: 400px) {
+	@media screen and (max-width: 406px) {
 		/* me */
 		#me header > p.para0 {
 			display: block;
@@ -2586,6 +2587,14 @@
 		#me header > p.para1 {
 			display: none;
 		}
+
+		#me header > p.para3 {
+			font-size: 1.1rem;
+		}
+
+	}
+
+	@media screen and (max-width: 377px) {
 
 		#me header > p.para3 {
 			font-size: 1.05rem;
