@@ -313,9 +313,9 @@
 			}
 
 				#intro h1 {
-					font-size: 4rem;
+					font-size: 4.5rem;
 					line-height: 1.1;
-					margin-bottom: 5rem;
+					margin-bottom: 5.5rem;
 				}
 
 				#intro p.slogan1, #intro p.slogan2, #intro p.slogan3 {
@@ -944,7 +944,7 @@
 
 			@media screen and (max-width: 480px) {
 
-				ul.actions {
+				/* ul.actions {
 					margin: 0 0 2rem 0;
 				}
 
@@ -953,6 +953,7 @@
 						display: block;
 						text-align: center;
 						width: 100%;
+						
 					}
 
 						ul.actions li:first-child {
@@ -974,7 +975,7 @@
 
 						ul.actions.small li:first-child {
 							padding-top: 0;
-						}
+						} */
 
 			}
 
