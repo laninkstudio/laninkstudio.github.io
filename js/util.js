@@ -156,6 +156,20 @@
 							if (!href || href == '#' || href == '' || href == '#' + id)
 								return;
 
+							// Check if link has a submenu (don't close panel for dropdowns)
+							var $parentLi = $a.parent('li');
+							if ($parentLi.length > 0 && $parentLi.find('ul.submenu').length > 0) {
+								// Has submenu, don't close panel - let default behavior handle it
+								return;
+							}
+
+							// Check if href is an anchor link to a section (starts with #s)
+							// Don't close panel for these, just scroll to section
+							if (href && href.indexOf('#s') === 0) {
+								// Let default anchor behavior happen, don't close panel
+								return;
+							}
+
 							// Cancel original event.
 								event.preventDefault();
 								event.stopPropagation();
