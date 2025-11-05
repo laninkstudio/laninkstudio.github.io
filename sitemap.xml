@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://laninkstudio.github.io/2025/10/21/Bravery/</loc>
+    
+    <lastmod>2025-11-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://laninkstudio.github.io/2025/10/21/Stillness/</loc>
     
     <lastmod>2025-11-04</lastmod>
@@ -30,15 +39,6 @@
   
   <url>
     <loc>http://laninkstudio.github.io/2025/10/21/Dream/</loc>
-    
-    <lastmod>2025-11-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://laninkstudio.github.io/2025/10/21/Bravery/</loc>
     
     <lastmod>2025-11-04</lastmod>
     
@@ -112,7 +112,7 @@
 
   <url>
     <loc>http://laninkstudio.github.io/</loc>
-    <lastmod>2025-11-04</lastmod>
+    <lastmod>2025-11-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -120,7 +120,7 @@
   
   <url>
     <loc>http://laninkstudio.github.io/tags/Tattoo/</loc>
-    <lastmod>2025-11-04</lastmod>
+    <lastmod>2025-11-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -129,7 +129,7 @@
   
   <url>
     <loc>http://laninkstudio.github.io/categories/One-Character/</loc>
-    <lastmod>2025-11-04</lastmod>
+    <lastmod>2025-11-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

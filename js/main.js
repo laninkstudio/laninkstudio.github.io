@@ -195,6 +195,26 @@
 						$navPanel
 							.css('transition', 'none');
 
+				// Mobile submenu toggle functionality.
+					$navPanel.on('click', '.links > li > a', function(event) {
+						var $link = $(this);
+						var $parentLi = $link.parent('li');
+						var $submenu = $parentLi.find('ul.submenu');
+						
+						// Only handle toggle if there's a submenu and this is not a submenu link
+						if ($submenu.length > 0 && !$link.closest('.submenu').length) {
+							// Prevent default link behavior
+							event.preventDefault();
+							event.stopPropagation();
+							
+							// Toggle active class on parent li
+							$parentLi.toggleClass('submenu-open');
+							
+							// Close other open submenus (optional - remove if you want multiple open)
+							$navPanel.find('.links > li.submenu-open').not($parentLi).removeClass('submenu-open');
+						}
+					});
+
 		// Intro.
 			var $intro = $('#intro');
 
