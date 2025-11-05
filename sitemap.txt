@@ -1,9 +1,11 @@
-http://laninkstudio.github.io/2025/10/21/Bravery/
+http://laninkstudio.github.io/2025/11/05/Destiny/
+http://laninkstudio.github.io/2025/11/05/Freedom/
+http://laninkstudio.github.io/2025/10/29/Blessing/
 http://laninkstudio.github.io/2025/10/21/Stillness/
 http://laninkstudio.github.io/2025/10/21/Love/
 http://laninkstudio.github.io/2025/10/21/Harmony/
 http://laninkstudio.github.io/2025/10/21/Dream/
-http://laninkstudio.github.io/2025/10/29/Blessing/
+http://laninkstudio.github.io/2025/10/21/Bravery/
 http://laninkstudio.github.io/payment/index.html
 http://laninkstudio.github.io/contact/index.html
 http://laninkstudio.github.io/about/index.html
@@ -13,3 +15,4 @@ http://laninkstudio.github.io/gallery/index.html
 http://laninkstudio.github.io/
 http://laninkstudio.github.io/tags/Tattoo/
 http://laninkstudio.github.io/categories/One-Character/
+http://laninkstudio.github.io/categories/Two-Character-Words/
