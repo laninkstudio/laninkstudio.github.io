@@ -79,33 +79,23 @@
         <!-- Intro 头部显示 s -->
         
         
-                <div id="intro">
-            <h1>This is<br/>Lán Ink Studio </h1>
-            <p class="slogan1">Where Chinese calligraphy meets tattoo artistry</p>
-            <p class="slogan2">Timeless strokes, modern stories</p>
-            <p class="slogan3">Begin your story in ink</p>
-            <ul class="actions">
-                <li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
-            </ul>
-        </div>
+        <!-- Intro 头部显示 e -->
+        <!-- Scroll to header on paginated pages -->
+        
         <script>
         (function(){
-            try {
-                var path = String(location.pathname || '').replace(/^\/+/, '');
-                if (path.indexOf('categories/') === 0) {
-                    var parts = path.split('/');
-                    var slug = parts.length > 1 ? parts[1] : '';
-                    var list = ["One-Character","Two-Character-Words","Short-Idioms-and-Phrases"];
-                    if (Array.isArray(list) && list.indexOf(slug) !== -1) {
-                        var introEl = document.getElementById('intro');
-                        if (introEl) introEl.style.display = 'none';
-                    }
+            // Scroll to header on paginated pages (when intro is hidden server-side)
+            setTimeout(function() {
+                var headerEl = document.getElementById('header');
+                if (headerEl) {
+                    headerEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                } else {
+                    window.scrollTo(0, 0);
                 }
-            } catch (e) {}
+            }, 100);
         })();
         </script>
         
-        <!-- Intro 头部显示 e -->
         <!-- Header 头部logo start -->
         <header id="header">
     <a href="/" class="logo">Lán Ink Studio</a>
@@ -253,6 +243,39 @@
     <div class="pagination" >
         <a class="extend prev" rel="prev" href="/tags/Tattoo/page/2/">pre</a><a class="page-number" href="/tags/Tattoo/">1</a><a class="page-number" href="/tags/Tattoo/page/2/">2</a><span class="page-number current">3</span>
     </div>  
+    <script>
+    (function(){
+        // Handle pagination clicks - hide intro and scroll to header
+        document.addEventListener('DOMContentLoaded', function() {
+            var paginationLinks = document.querySelectorAll('.pagination a');
+            paginationLinks.forEach(function(link) {
+                link.addEventListener('click', function(e) {
+                    // Store flag in sessionStorage to hide intro on next page
+                    sessionStorage.setItem('hideIntroOnLoad', 'true');
+                });
+            });
+            
+            // On page load, check if we should hide intro and scroll to header
+            if (sessionStorage.getItem('hideIntroOnLoad') === 'true') {
+                var introEl = document.getElementById('intro');
+                if (introEl) {
+                    introEl.style.display = 'none';
+                }
+                // Scroll to header section
+                setTimeout(function() {
+                    var headerEl = document.getElementById('header');
+                    if (headerEl) {
+                        headerEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    } else {
+                        window.scrollTo(0, 0);
+                    }
+                }, 100);
+                // Clear the flag
+                sessionStorage.removeItem('hideIntroOnLoad');
+            }
+        });
+    })();
+    </script>
     
 </footer>
 

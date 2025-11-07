@@ -92,6 +92,21 @@
         (function(){
             try {
                 var path = String(location.pathname || '').replace(/^\/+/, '');
+                // Check if it's a paginated page (page 2+)
+                var urlParams = new URLSearchParams(window.location.search);
+                var pageNum = urlParams.get('page') || (path.match(/\/page\/(\d+)/) ? path.match(/\/page\/(\d+)/)[1] : null);
+                if (pageNum && parseInt(pageNum) > 1) {
+                    var introEl = document.getElementById('intro');
+                    if (introEl) introEl.style.display = 'none';
+                    // Scroll to header on paginated pages
+                    setTimeout(function() {
+                        var headerEl = document.getElementById('header');
+                        if (headerEl) {
+                            headerEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }, 100);
+                }
+                // Check categories
                 if (path.indexOf('categories/') === 0) {
                     var parts = path.split('/');
                     var slug = parts.length > 1 ? parts[1] : '';
@@ -106,6 +121,8 @@
         </script>
         
         <!-- Intro 头部显示 e -->
+        <!-- Scroll to header on paginated pages -->
+        
         <!-- Header 头部logo start -->
         <header id="header">
     <a href="/" class="logo">Lán Ink Studio</a>
@@ -477,6 +494,39 @@
     <div class="pagination" >
         <span class="page-number current">1</span><a class="page-number" href="/archives/page/2/">2</a><a class="page-number" href="/archives/page/3/">3</a><a class="extend next" rel="next" href="/archives/page/2/">next</a>
     </div>  
+    <script>
+    (function(){
+        // Handle pagination clicks - hide intro and scroll to header
+        document.addEventListener('DOMContentLoaded', function() {
+            var paginationLinks = document.querySelectorAll('.pagination a');
+            paginationLinks.forEach(function(link) {
+                link.addEventListener('click', function(e) {
+                    // Store flag in sessionStorage to hide intro on next page
+                    sessionStorage.setItem('hideIntroOnLoad', 'true');
+                });
+            });
+            
+            // On page load, check if we should hide intro and scroll to header
+            if (sessionStorage.getItem('hideIntroOnLoad') === 'true') {
+                var introEl = document.getElementById('intro');
+                if (introEl) {
+                    introEl.style.display = 'none';
+                }
+                // Scroll to header section
+                setTimeout(function() {
+                    var headerEl = document.getElementById('header');
+                    if (headerEl) {
+                        headerEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    } else {
+                        window.scrollTo(0, 0);
+                    }
+                }, 100);
+                // Clear the flag
+                sessionStorage.removeItem('hideIntroOnLoad');
+            }
+        });
+    })();
+    </script>
     
 </footer>
 
