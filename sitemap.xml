@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://laninkstudio.github.io/One-Character/Humanity/</loc>
+    
+    <lastmod>2025-11-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://laninkstudio.github.io/Two-Character-Words/Truth/</loc>
     
     <lastmod>2025-11-12</lastmod>
@@ -66,15 +75,6 @@
   
   <url>
     <loc>http://laninkstudio.github.io/One-Character/Soul/</loc>
-    
-    <lastmod>2025-11-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://laninkstudio.github.io/One-Character/Humanity/</loc>
     
     <lastmod>2025-11-12</lastmod>
     
@@ -245,14 +245,14 @@
 
   
   <url>
-    <loc>http://laninkstudio.github.io/categories/One-Character/</loc>
+    <loc>http://laninkstudio.github.io/categories/Two-Character-Words/</loc>
     <lastmod>2025-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://laninkstudio.github.io/categories/Two-Character-Words/</loc>
+    <loc>http://laninkstudio.github.io/categories/One-Character/</loc>
     <lastmod>2025-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

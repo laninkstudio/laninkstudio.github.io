@@ -1,3 +1,4 @@
+http://laninkstudio.github.io/One-Character/Humanity/
 http://laninkstudio.github.io/Two-Character-Words/Truth/
 http://laninkstudio.github.io/Two-Character-Words/Transform/
 http://laninkstudio.github.io/Two-Character-Words/Karma/
@@ -6,7 +7,6 @@ http://laninkstudio.github.io/Two-Character-Words/Freedom/
 http://laninkstudio.github.io/Two-Character-Words/Destiny/
 http://laninkstudio.github.io/Two-Character-Words/Awakening/
 http://laninkstudio.github.io/One-Character/Soul/
-http://laninkstudio.github.io/One-Character/Humanity/
 http://laninkstudio.github.io/One-Character/Dragon/
 http://laninkstudio.github.io/One-Character/God/
 http://laninkstudio.github.io/One-Character/The%20Way/
@@ -25,5 +25,5 @@ http://laninkstudio.github.io/group/index.html
 http://laninkstudio.github.io/gallery/index.html
 http://laninkstudio.github.io/
 http://laninkstudio.github.io/tags/Tattoo/
-http://laninkstudio.github.io/categories/One-Character/
 http://laninkstudio.github.io/categories/Two-Character-Words/
+http://laninkstudio.github.io/categories/One-Character/
