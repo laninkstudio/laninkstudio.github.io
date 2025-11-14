@@ -29,15 +29,6 @@
   </url>
   
   <url>
-    <loc>http://laninkstudio.github.io/One-Character/Stillness/</loc>
-    
-    <lastmod>2025-11-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://laninkstudio.github.io/One-Character/Soul/</loc>
     
     <lastmod>2025-11-14</lastmod>
@@ -84,15 +75,6 @@
   
   <url>
     <loc>http://laninkstudio.github.io/Two-Character-Words/Hope/</loc>
-    
-    <lastmod>2025-11-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://laninkstudio.github.io/One-Character/Harmony/</loc>
     
     <lastmod>2025-11-14</lastmod>
     
@@ -165,6 +147,24 @@
   
   <url>
     <loc>http://laninkstudio.github.io/Two-Character-Words/Awakening/</loc>
+    
+    <lastmod>2025-11-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/One-Character/Stillness/</loc>
+    
+    <lastmod>2025-11-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/One-Character/Harmony/</loc>
     
     <lastmod>2025-11-14</lastmod>
     
