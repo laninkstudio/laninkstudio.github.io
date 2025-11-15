@@ -79,49 +79,22 @@
         <!-- Intro 头部显示 s -->
         
         
-                <div id="intro">
-            <h1>This is<br/>Lán Ink Studio </h1>
-            <p class="slogan1">Where Chinese calligraphy meets tattoo artistry</p>
-            <p class="slogan2">Timeless strokes, modern stories</p>
-            <p class="slogan3">Begin your story in ink</p>
-            <ul class="actions">
-                <li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
-            </ul>
-        </div>
-        <script>
-        (function(){
-            try {
-                var path = String(location.pathname || '').replace(/^\/+/, '');
-                // Check if it's a paginated page (page 2+)
-                var urlParams = new URLSearchParams(window.location.search);
-                var pageNum = urlParams.get('page') || (path.match(/\/page\/(\d+)/) ? path.match(/\/page\/(\d+)/)[1] : null);
-                if (pageNum && parseInt(pageNum) > 1) {
-                    var introEl = document.getElementById('intro');
-                    if (introEl) introEl.style.display = 'none';
-                    // Scroll to header on paginated pages
-                    setTimeout(function() {
-                        var headerEl = document.getElementById('header');
-                        if (headerEl) {
-                            headerEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                        }
-                    }, 100);
-                }
-                // Check categories
-                if (path.indexOf('categories/') === 0) {
-                    var parts = path.split('/');
-                    var slug = parts.length > 1 ? parts[1] : '';
-                    var list = ["One-Character","Two-Character-Words","Short-Idioms-and-Phrases"];
-                    if (Array.isArray(list) && list.indexOf(slug) !== -1) {
-                        var introEl = document.getElementById('intro');
-                        if (introEl) introEl.style.display = 'none';
-                    }
-                }
-            } catch (e) {}
-        })();
-        </script>
-        
         <!-- Intro 头部显示 e -->
         <!-- Scroll to header on paginated pages -->
+        
+        <script>
+        (function(){
+            // Scroll to header on paginated pages (when intro is hidden server-side)
+            setTimeout(function() {
+                var headerEl = document.getElementById('header');
+                if (headerEl) {
+                    headerEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                } else {
+                    window.scrollTo(0, 0);
+                }
+            }, 100);
+        })();
+        </script>
         
         <!-- Header 头部logo start -->
         <header id="header">
@@ -200,124 +173,11 @@
         <!-- Nav 导航条 end -->
         <!-- Main 主要部分 start -->
         
-        <!-- Main-first -->
-                    <div id="main">
-            <!-- Main first s-->
-            <article id="me" class="panel" style="background-image: url('img/home_page.jpg');background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;"> 
-                <header style="color: #000000">
-                    <!-- <h1>Lán Ink Studio</h1> -->
-                    <p class="para0">Chinese Calligraphy Tattoos</p>
-                    <p class="para1">Handwritten Chinese calligraphy tattoo designs</p>
-                    <p class="para2">Buy ready-made artwork or request a custom piece</p>
-                    <p class="para3">Ready-made artwork or custom requests</p>
-                    <!-- <p class="para3"><span>Ready-made artwork or custom requests&nbsp&nbsp</span></p>
-                    <p class="para4"></p> -->
-                    <a target="_self" href="/categories/One-Character/" class="image-link"><img src="/images/buttons/shop_now.png" class="shop-now" alt="shop Now button"></a>
-                </header>
-                <a href="/categories/One-Character/" class="jumplink pic">
-                    <span class="arrow icon fa-chevron-right"><span></span></span>
-                    <img src="" alt="" />
-                </a>
-            </article>
-            <!-- Main first e-->
-        </div>
-
-        
         <!-- 文章列表   s -->
         <div id="main" style="background-color: transparent; padding:0;">
         <section class="link_container" style="margin-top: 0; background-color: transparent; ">
             <div class="link_row">
                 <!-- 文章sample  s -->
-                
-                    
-                    <div class="6u 12u(narrower)">
-                        <section class="link_box special">
-                           <a href="/One-Character/Blessing/">
-                            <div class="page_title" style="background-image: url(/images/thumbnail_main/main_blessing.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">
-                                <!--标题-->
-                                <h2 class="page_title_text"> Blessing </h2>
-                                <!--段落-->
-                            </div>
-                            </a>
-                            <div class="home-post-info">
-                                <!-- Author Avatar -->
-                                <div class="home-post-info-author-avatar">
-                                    <h5><span class="home-post-info-data">＄9.99</span></h5>
-                                    <div class="home-post-info-Category">
-                                        <!-- Category -->
-                                        <span>
-                                <h5>
-                                <a class="post_category-link" target="_blank" rel="noopener" href="http://localhost:4000/categories/Algorithm/">
-                                    <a class="post_category-link" href="/categories/One-Character/">One Character</a></a>
-                                </h5>
-                            </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                    
-                    <!-- 文章sample  e-->
-                
-                    
-                    <div class="6u 12u(narrower)">
-                        <section class="link_box special">
-                           <a href="/One-Character/Bravery/">
-                            <div class="page_title" style="background-image: url(/images/thumbnail_main/main_bravery.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">
-                                <!--标题-->
-                                <h2 class="page_title_text"> Bravery </h2>
-                                <!--段落-->
-                            </div>
-                            </a>
-                            <div class="home-post-info">
-                                <!-- Author Avatar -->
-                                <div class="home-post-info-author-avatar">
-                                    <h5><span class="home-post-info-data">＄9.99</span></h5>
-                                    <div class="home-post-info-Category">
-                                        <!-- Category -->
-                                        <span>
-                                <h5>
-                                <a class="post_category-link" target="_blank" rel="noopener" href="http://localhost:4000/categories/Algorithm/">
-                                    <a class="post_category-link" href="/categories/One-Character/">One Character</a></a>
-                                </h5>
-                            </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                    
-                    <!-- 文章sample  e-->
-                
-                    
-                    <div class="6u 12u(narrower)">
-                        <section class="link_box special">
-                           <a href="/One-Character/Dream/">
-                            <div class="page_title" style="background-image: url(/images/thumbnail_main/main_dream.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">
-                                <!--标题-->
-                                <h2 class="page_title_text"> Dream </h2>
-                                <!--段落-->
-                            </div>
-                            </a>
-                            <div class="home-post-info">
-                                <!-- Author Avatar -->
-                                <div class="home-post-info-author-avatar">
-                                    <h5><span class="home-post-info-data">＄9.99</span></h5>
-                                    <div class="home-post-info-Category">
-                                        <!-- Category -->
-                                        <span>
-                                <h5>
-                                <a class="post_category-link" target="_blank" rel="noopener" href="http://localhost:4000/categories/Algorithm/">
-                                    <a class="post_category-link" href="/categories/One-Character/">One Character</a></a>
-                                </h5>
-                            </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                    
-                    <!-- 文章sample  e-->
                 
                     
                     <div class="6u 12u(narrower)">
@@ -412,100 +272,10 @@
                     
                     <div class="6u 12u(narrower)">
                         <section class="link_box special">
-                           <a href="/One-Character/Dragon/">
-                            <div class="page_title" style="background-image: url(/images/thumbnail_main/main_dragon.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">
+                           <a href="/One-Character/Blessing/">
+                            <div class="page_title" style="background-image: url(/images/thumbnail_main/main_blessing.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">
                                 <!--标题-->
-                                <h2 class="page_title_text"> Dragon </h2>
-                                <!--段落-->
-                            </div>
-                            </a>
-                            <div class="home-post-info">
-                                <!-- Author Avatar -->
-                                <div class="home-post-info-author-avatar">
-                                    <h5><span class="home-post-info-data">＄9.99</span></h5>
-                                    <div class="home-post-info-Category">
-                                        <!-- Category -->
-                                        <span>
-                                <h5>
-                                <a class="post_category-link" target="_blank" rel="noopener" href="http://localhost:4000/categories/Algorithm/">
-                                    <a class="post_category-link" href="/categories/One-Character/">One Character</a></a>
-                                </h5>
-                            </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                    
-                    <!-- 文章sample  e-->
-                
-                    
-                    <div class="6u 12u(narrower)">
-                        <section class="link_box special">
-                           <a href="/One-Character/God/">
-                            <div class="page_title" style="background-image: url(/images/thumbnail_main/main_god.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">
-                                <!--标题-->
-                                <h2 class="page_title_text"> God </h2>
-                                <!--段落-->
-                            </div>
-                            </a>
-                            <div class="home-post-info">
-                                <!-- Author Avatar -->
-                                <div class="home-post-info-author-avatar">
-                                    <h5><span class="home-post-info-data">＄9.99</span></h5>
-                                    <div class="home-post-info-Category">
-                                        <!-- Category -->
-                                        <span>
-                                <h5>
-                                <a class="post_category-link" target="_blank" rel="noopener" href="http://localhost:4000/categories/Algorithm/">
-                                    <a class="post_category-link" href="/categories/One-Character/">One Character</a></a>
-                                </h5>
-                            </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                    
-                    <!-- 文章sample  e-->
-                
-                    
-                    <div class="6u 12u(narrower)">
-                        <section class="link_box special">
-                           <a href="/One-Character/Light/">
-                            <div class="page_title" style="background-image: url(/images/thumbnail_main/main_light.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">
-                                <!--标题-->
-                                <h2 class="page_title_text"> Light </h2>
-                                <!--段落-->
-                            </div>
-                            </a>
-                            <div class="home-post-info">
-                                <!-- Author Avatar -->
-                                <div class="home-post-info-author-avatar">
-                                    <h5><span class="home-post-info-data">＄9.99</span></h5>
-                                    <div class="home-post-info-Category">
-                                        <!-- Category -->
-                                        <span>
-                                <h5>
-                                <a class="post_category-link" target="_blank" rel="noopener" href="http://localhost:4000/categories/Algorithm/">
-                                    <a class="post_category-link" href="/categories/One-Character/">One Character</a></a>
-                                </h5>
-                            </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                    
-                    <!-- 文章sample  e-->
-                
-                    
-                    <div class="6u 12u(narrower)">
-                        <section class="link_box special">
-                           <a href="/One-Character/Soul/">
-                            <div class="page_title" style="background-image: url(/images/thumbnail_main/main_soul.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">
-                                <!--标题-->
-                                <h2 class="page_title_text"> Soul </h2>
+                                <h2 class="page_title_text"> Blessing </h2>
                                 <!--段落-->
                             </div>
                             </a>
@@ -541,7 +311,7 @@
         <footer style="text-align: center; padding-top: 2em;">
   
     <div class="pagination" >
-        <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/2/">next</a>
+        <a class="extend prev" rel="prev" href="/archives/2025/page/2/">pre</a><a class="page-number" href="/archives/2025/">1</a><a class="page-number" href="/archives/2025/page/2/">2</a><span class="page-number current">3</span>
     </div>  
     <script>
     (function(){
