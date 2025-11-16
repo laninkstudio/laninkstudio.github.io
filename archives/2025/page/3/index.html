@@ -310,43 +310,7 @@
         <!-- footer  页码 start-->
         <footer style="text-align: center; padding-top: 2em;">
   
-    <div class="pagination" >
-        <a class="extend prev" rel="prev" href="/archives/2025/page/2/">pre</a><a class="page-number" href="/archives/2025/">1</a><a class="page-number" href="/archives/2025/page/2/">2</a><span class="page-number current">3</span>
-    </div>  
-    <script>
-    (function(){
-        // Handle pagination clicks - hide intro and scroll to header
-        document.addEventListener('DOMContentLoaded', function() {
-            var paginationLinks = document.querySelectorAll('.pagination a');
-            paginationLinks.forEach(function(link) {
-                link.addEventListener('click', function(e) {
-                    // Store flag in sessionStorage to hide intro on next page
-                    sessionStorage.setItem('hideIntroOnLoad', 'true');
-                });
-            });
-            
-            // On page load, check if we should hide intro and scroll to header
-            if (sessionStorage.getItem('hideIntroOnLoad') === 'true') {
-                var introEl = document.getElementById('intro');
-                if (introEl) {
-                    introEl.style.display = 'none';
-                }
-                // Scroll to header section
-                setTimeout(function() {
-                    var headerEl = document.getElementById('header');
-                    if (headerEl) {
-                        headerEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                    } else {
-                        window.scrollTo(0, 0);
-                    }
-                }, 100);
-                // Clear the flag
-                sessionStorage.removeItem('hideIntroOnLoad');
-            }
-        });
-    })();
-    </script>
-    
+  
 </footer>
 
         <!-- footer  页码 end-->
