@@ -203,31 +203,12 @@
         <footer style="text-align: center; padding-top: 2em;">
   
   
-    <div class="pagination" >
-        
-            <a class="prev" href="/page/2/">pre</a>
-        
-        
-        
-        
-        
-            
-                
-                <a class="page-number" href="/">1</a>
-            
-        
-            
-                
-                <a class="page-number" href="/page/2/">2</a>
-            
-        
-        
-        
-        
-        
-            <span class="next">next</span>
-        
-    </div>  
+    
+        <!-- Use Hexo's built-in paginator for correct URL generation -->
+        <div class="pagination" >
+            <a class="extend prev" rel="prev" href="/page/2/">pre</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span>
+        </div>
+      
     <script>
     (function(){
         // Handle pagination clicks - hide intro and scroll to header
