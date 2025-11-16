@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://laninkstudio.github.io/blog/index.html</loc>
+    
+    <lastmod>2025-11-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://laninkstudio.github.io/uncategorized/Chinese%20Calligraphy%20Styles%20Explained/</loc>
     
     <lastmod>2025-11-15</lastmod>
@@ -39,15 +48,6 @@
   
   <url>
     <loc>http://laninkstudio.github.io/uncategorized/Top%2050%20Chinese%20Characters/</loc>
-    
-    <lastmod>2025-11-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://laninkstudio.github.io/blog/index.html</loc>
     
     <lastmod>2025-11-15</lastmod>
     

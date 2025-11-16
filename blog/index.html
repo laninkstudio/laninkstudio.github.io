@@ -80,28 +80,35 @@
     
 <link rel="stylesheet" href="/css/typo.css" />
 <style>
+    .serif {
+  font-family: Palatino, Optima, Georgia, serif;
+    }
     .blog-posts-container {
         padding: 3rem;
-        background-color: #fffbef;
+        background-color: #fff7e3;
     }
     .blog-posts-list {
         list-style: none;
         padding: 0;
         margin: 2rem 0;
+        
     }
     .blog-posts-list li {
         margin: 1rem 0;
         padding: 0.5rem 0;
         border-bottom: 1px solid #e0e0e0;
+        font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+        
     }
     .blog-posts-list li:last-child {
         border-bottom: none;
     }
     .blog-posts-list a {
-        font-size: 1.2rem;
-        color: #333;
+        font-size: 1rem;
+        color: #2a2a2a;
         text-decoration: none;
         transition: color 0.3s ease;
+        
     }
     .blog-posts-list a:hover {
         color: #666;
@@ -109,7 +116,26 @@
     }
     .blog-posts-title {
         margin-bottom: 2rem;
+        text-transform: capitalize;
+        text-align: center;
+        color: #815f41;
     }
+    .blog-posts-description {
+        margin-bottom: 2rem;
+        font-size: 0.9rem;
+        color: #2a2a2a;
+        font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+        text-align: center;
+    }
+    .blog-posts-description p {
+        margin: 0;
+        padding: 0;
+    }
+    /* @media only screen and (max-width: 768px) {
+        .blog-posts-container {
+            padding: 3rem 1.5rem 3rem 1.5rem;
+        }
+    } */
 </style>
 <body class="is-loading">
     <!-- Wrapper 外包 s-->
@@ -176,8 +202,8 @@
 		        </li>
 		        
 		        <li>
-		            <a href="/blog/" title="Blog Posts">
-		                Blog Posts
+		            <a href="/blog/" title="Lan&#39;s library">
+		                Lan&#39;s library
 		            </a>
 		        </li>
 		        
@@ -192,7 +218,8 @@
 
         <div id="main">
             <div class="blog-posts-container">
-                <h1 class="blog-posts-title">Blog Posts</h1>
+                <h1 class="blog-posts-title">Chinese Tattoo Guide</h1>
+                <p class="blog-posts-description">Your guide to understanding Chinese characters, calligraphy styles, cultural context, and meaningful tattoo design.</p>
                 <ul class="blog-posts-list">
                     
                         
