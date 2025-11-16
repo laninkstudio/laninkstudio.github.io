@@ -1429,8 +1429,8 @@
 
 			#main > * {
 				background-color: #fff7e3;
-				/* padding: 0.5rem 1rem 0.1rem 1rem ; */
-				padding: 3rem 1.5rem 3rem 1.5rem;
+				padding: 0.5rem 1rem 0.1rem 1rem ;
+				/* padding: 3rem 1.5rem 3rem 1.5rem; */
 			}
 
 		}

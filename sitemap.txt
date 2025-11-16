@@ -31,5 +31,5 @@ http://laninkstudio.github.io/group/index.html
 http://laninkstudio.github.io/gallery/index.html
 http://laninkstudio.github.io/
 http://laninkstudio.github.io/tags/Tattoo/
-http://laninkstudio.github.io/categories/One-Character/
 http://laninkstudio.github.io/categories/Two-Character-Words/
+http://laninkstudio.github.io/categories/One-Character/
