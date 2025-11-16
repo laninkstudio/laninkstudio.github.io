@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://laninkstudio.github.io/uncategorized/Top%2050%20Chinese%20Characters/</loc>
+    
+    <lastmod>2025-11-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/uncategorized/How%20to%20Choose%20the%20Perfect%20Placement/</loc>
+    
+    <lastmod>2025-11-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/uncategorized/Font%20vs%20handwritten/</loc>
+    
+    <lastmod>2025-11-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/uncategorized/Common%20Chinese%20Tattoo%20Mistakes/</loc>
+    
+    <lastmod>2025-11-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://laninkstudio.github.io/uncategorized/Chinese%20Calligraphy%20Styles%20Explained/</loc>
     
     <lastmod>2025-11-16</lastmod>
@@ -14,42 +50,6 @@
     <loc>http://laninkstudio.github.io/blog/index.html</loc>
     
     <lastmod>2025-11-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://laninkstudio.github.io/uncategorized/Common%20Chinese%20Tattoo%20Mistakes/</loc>
-    
-    <lastmod>2025-11-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://laninkstudio.github.io/uncategorized/Font%20vs%20handwritten/</loc>
-    
-    <lastmod>2025-11-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://laninkstudio.github.io/uncategorized/How%20to%20Choose%20the%20Perfect%20Placement/</loc>
-    
-    <lastmod>2025-11-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://laninkstudio.github.io/uncategorized/Top%2050%20Chinese%20Characters/</loc>
-    
-    <lastmod>2025-11-15</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -299,14 +299,14 @@
 
   
   <url>
-    <loc>http://laninkstudio.github.io/categories/Two-Character-Words/</loc>
+    <loc>http://laninkstudio.github.io/categories/One-Character/</loc>
     <lastmod>2025-11-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://laninkstudio.github.io/categories/One-Character/</loc>
+    <loc>http://laninkstudio.github.io/categories/Two-Character-Words/</loc>
     <lastmod>2025-11-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
