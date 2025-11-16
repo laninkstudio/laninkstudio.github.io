@@ -91,28 +91,81 @@
         list-style: none;
         padding: 0;
         margin: 2rem 0;
-        
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
     }
-    .blog-posts-list li {
-        margin: 1rem 0;
-        padding: 0.5rem 0;
-        border-bottom: 1px solid #e0e0e0;
+    .blog-post-box {
+        display: flex;
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
         font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
-        
     }
-    .blog-posts-list li:last-child {
-        border-bottom: none;
+    .blog-post-box:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     }
-    .blog-posts-list a {
-        font-size: 1rem;
+    .blog-post-thumbnail {
+        flex-shrink: 0;
+        width: 200px;
+        height: 150px;
+        overflow: hidden;
+        background-color: #f0f0f0;
+    }
+    .blog-post-thumbnail img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .blog-post-thumbnail-placeholder {
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, #f5f5f5 0%, #e0e0e0 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #999;
+        font-size: 0.9rem;
+    }
+    .blog-post-content {
+        flex: 1;
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .blog-post-title {
+        margin: 0 0 0.75rem 0;
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+    .blog-post-title a {
         color: #2a2a2a;
         text-decoration: none;
         transition: color 0.3s ease;
-        
     }
-    .blog-posts-list a:hover {
+    .blog-post-title a:hover {
+        color: #815f41;
+    }
+    .blog-post-meta {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        font-size: 0.9rem;
         color: #666;
-        text-decoration: underline;
+    }
+    .blog-post-author {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    .blog-post-date {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
     }
     .blog-posts-title {
         margin-bottom: 2rem;
@@ -131,11 +184,21 @@
         margin: 0;
         padding: 0;
     }
-    /* @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 500px) {
         .blog-posts-container {
-            padding: 3rem 1.5rem 3rem 1.5rem;
+            padding: 2rem 1.5rem;
         }
-    } */
+        .blog-post-box {
+            flex-direction: column;
+        }
+        .blog-post-thumbnail {
+            width: 100%;
+            height: 150px;
+        }
+        .blog-post-content {
+            padding: 1rem;
+        }
+    }
 </style>
 <body class="is-loading">
     <!-- Wrapper 外包 s-->
@@ -223,32 +286,127 @@
                 <ul class="blog-posts-list">
                     
                         
-                        <li>
-                            <a href="/uncategorized/Chinese%20Calligraphy%20Styles%20Explained/">Chinese Calligraphy Styles Explained: Which One Is Right for Your Tattoo?</a>
+                        <li class="blog-post-box">
+                            <div class="blog-post-thumbnail">
+                                
+                                    <div class="blog-post-thumbnail-placeholder">No Image</div>
+                                
+                            </div>
+                            <div class="blog-post-content">
+                                <h2 class="blog-post-title">
+                                    <a href="/uncategorized/Chinese%20Calligraphy%20Styles%20Explained/">Chinese Calligraphy Styles Explained: Which One Is Right for Your Tattoo?</a>
+                                </h2>
+                                <div class="blog-post-meta">
+                                    <div class="blog-post-author">
+                                        <span>Author:</span>
+                                        <span>Lan</span>
+                                    </div>
+                                    <div class="blog-post-date">
+                                        <span>Date:</span>
+                                        <span>2025-11-10</span>
+                                    </div>
+                                </div>
+                            </div>
                         </li>
                         
                     
                         
-                        <li>
-                            <a href="/uncategorized/Common%20Chinese%20Tattoo%20Mistakes/">Common Chinese Tattoo Mistakes (And How to Avoid Them)</a>
+                        <li class="blog-post-box">
+                            <div class="blog-post-thumbnail">
+                                
+                                    <div class="blog-post-thumbnail-placeholder">No Image</div>
+                                
+                            </div>
+                            <div class="blog-post-content">
+                                <h2 class="blog-post-title">
+                                    <a href="/uncategorized/Common%20Chinese%20Tattoo%20Mistakes/">Common Chinese Tattoo Mistakes (And How to Avoid Them)</a>
+                                </h2>
+                                <div class="blog-post-meta">
+                                    <div class="blog-post-author">
+                                        <span>Author:</span>
+                                        <span>Lán Ink Studio</span>
+                                    </div>
+                                    <div class="blog-post-date">
+                                        <span>Date:</span>
+                                        <span>2025-11-10</span>
+                                    </div>
+                                </div>
+                            </div>
                         </li>
                         
                     
                         
-                        <li>
-                            <a href="/uncategorized/Font%20vs%20handwritten/">Font vs. Handwritten Chinese Tattoos: Why It Matters</a>
+                        <li class="blog-post-box">
+                            <div class="blog-post-thumbnail">
+                                
+                                    <div class="blog-post-thumbnail-placeholder">No Image</div>
+                                
+                            </div>
+                            <div class="blog-post-content">
+                                <h2 class="blog-post-title">
+                                    <a href="/uncategorized/Font%20vs%20handwritten/">Font vs. Handwritten Chinese Tattoos: Why It Matters</a>
+                                </h2>
+                                <div class="blog-post-meta">
+                                    <div class="blog-post-author">
+                                        <span>Author:</span>
+                                        <span>Lán Ink Studio</span>
+                                    </div>
+                                    <div class="blog-post-date">
+                                        <span>Date:</span>
+                                        <span>2025-11-10</span>
+                                    </div>
+                                </div>
+                            </div>
                         </li>
                         
                     
                         
-                        <li>
-                            <a href="/uncategorized/How%20to%20Choose%20the%20Perfect%20Placement/">How to Choose the Perfect Placement for Your Chinese Tattoo</a>
+                        <li class="blog-post-box">
+                            <div class="blog-post-thumbnail">
+                                
+                                    <div class="blog-post-thumbnail-placeholder">No Image</div>
+                                
+                            </div>
+                            <div class="blog-post-content">
+                                <h2 class="blog-post-title">
+                                    <a href="/uncategorized/How%20to%20Choose%20the%20Perfect%20Placement/">How to Choose the Perfect Placement for Your Chinese Tattoo</a>
+                                </h2>
+                                <div class="blog-post-meta">
+                                    <div class="blog-post-author">
+                                        <span>Author:</span>
+                                        <span>Lán Ink Studio</span>
+                                    </div>
+                                    <div class="blog-post-date">
+                                        <span>Date:</span>
+                                        <span>2025-11-10</span>
+                                    </div>
+                                </div>
+                            </div>
                         </li>
                         
                     
                         
-                        <li>
-                            <a href="/uncategorized/Top%2050%20Chinese%20Characters/">Top 50 Chinese Characters for Tattoos (With Accurate Meanings)</a>
+                        <li class="blog-post-box">
+                            <div class="blog-post-thumbnail">
+                                
+                                    <div class="blog-post-thumbnail-placeholder">No Image</div>
+                                
+                            </div>
+                            <div class="blog-post-content">
+                                <h2 class="blog-post-title">
+                                    <a href="/uncategorized/Top%2050%20Chinese%20Characters/">Top 50 Chinese Characters for Tattoos (With Accurate Meanings)</a>
+                                </h2>
+                                <div class="blog-post-meta">
+                                    <div class="blog-post-author">
+                                        <span>Author:</span>
+                                        <span>Lán Ink Studio</span>
+                                    </div>
+                                    <div class="blog-post-date">
+                                        <span>Date:</span>
+                                        <span>2025-11-10</span>
+                                    </div>
+                                </div>
+                            </div>
                         </li>
                         
                     
