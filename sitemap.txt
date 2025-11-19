@@ -1,3 +1,4 @@
+http://laninkstudio.github.io/shop/index.html
 http://laninkstudio.github.io/Virtues-and-Values/Love/
 http://laninkstudio.github.io/Food-and-Flavor/Milk%20tea/
 http://laninkstudio.github.io/Food-and-Flavor/Rice/
@@ -13,7 +14,6 @@ http://laninkstudio.github.io/uncategorized/Font%20vs%20handwritten/
 http://laninkstudio.github.io/Cultural-and-Heritage/Harmony/
 http://laninkstudio.github.io/Virtues-and-Values/Dream/
 http://laninkstudio.github.io/Cultural-and-Heritage/The%20Way/
-http://laninkstudio.github.io/shop/index.html
 http://laninkstudio.github.io/Virtues-and-Values/Truth/
 http://laninkstudio.github.io/Virtues-and-Values/Transform/
 http://laninkstudio.github.io/Virtues-and-Values/Stillness/
@@ -40,8 +40,8 @@ http://laninkstudio.github.io/group/index.html
 http://laninkstudio.github.io/gallery/index.html
 http://laninkstudio.github.io/
 http://laninkstudio.github.io/tags/Tattoo/
-http://laninkstudio.github.io/categories/Cultural-and-Heritage/
 http://laninkstudio.github.io/categories/Virtues-and-Values/
+http://laninkstudio.github.io/categories/Cultural-and-Heritage/
 http://laninkstudio.github.io/categories/Food-and-Flavor/
 http://laninkstudio.github.io/categories/Minimal-and-Aesthetic/
 http://laninkstudio.github.io/categories/Fun-and-Quirky/

@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://laninkstudio.github.io/shop/index.html</loc>
+    
+    <lastmod>2025-11-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://laninkstudio.github.io/Virtues-and-Values/Love/</loc>
     
     <lastmod>2025-11-19</lastmod>
@@ -131,15 +140,6 @@
     <loc>http://laninkstudio.github.io/Cultural-and-Heritage/The%20Way/</loc>
     
     <lastmod>2025-11-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://laninkstudio.github.io/shop/index.html</loc>
-    
-    <lastmod>2025-11-18</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -380,14 +380,14 @@
 
   
   <url>
-    <loc>http://laninkstudio.github.io/categories/Cultural-and-Heritage/</loc>
+    <loc>http://laninkstudio.github.io/categories/Virtues-and-Values/</loc>
     <lastmod>2025-11-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://laninkstudio.github.io/categories/Virtues-and-Values/</loc>
+    <loc>http://laninkstudio.github.io/categories/Cultural-and-Heritage/</loc>
     <lastmod>2025-11-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
