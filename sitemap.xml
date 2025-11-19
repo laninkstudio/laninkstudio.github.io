@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://laninkstudio.github.io/Food-and-Flavor/Noodles/</loc>
+    <loc>http://laninkstudio.github.io/Food-and-Flavor/Milk%20tea/</loc>
     
     <lastmod>2025-11-19</lastmod>
     
@@ -11,7 +11,25 @@
   </url>
   
   <url>
-    <loc>http://laninkstudio.github.io/Fun-and-Quirky/Sorry%20I%20don't%20speak%20Chinese%20copy/</loc>
+    <loc>http://laninkstudio.github.io/Food-and-Flavor/Hotpot/</loc>
+    
+    <lastmod>2025-11-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/Food-and-Flavor/Rice/</loc>
+    
+    <lastmod>2025-11-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/Food-and-Flavor/Dumplings/</loc>
     
     <lastmod>2025-11-19</lastmod>
     
@@ -29,7 +47,25 @@
   </url>
   
   <url>
+    <loc>http://laninkstudio.github.io/Fun-and-Quirky/Sorry%20I%20don't%20speak%20Chinese%20copy/</loc>
+    
+    <lastmod>2025-11-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://laninkstudio.github.io/Virtues-and-Values/Love/</loc>
+    
+    <lastmod>2025-11-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/Food-and-Flavor/Noodles/</loc>
     
     <lastmod>2025-11-19</lastmod>
     
