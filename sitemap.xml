@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://laninkstudio.github.io/Food-and-Flavor/Milk%20tea/</loc>
+    <loc>http://laninkstudio.github.io/Virtues-and-Values/Love/</loc>
     
     <lastmod>2025-11-19</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://laninkstudio.github.io/Food-and-Flavor/Hotpot/</loc>
+    <loc>http://laninkstudio.github.io/Food-and-Flavor/Milk%20tea/</loc>
     
     <lastmod>2025-11-19</lastmod>
     
@@ -29,7 +29,34 @@
   </url>
   
   <url>
-    <loc>http://laninkstudio.github.io/Food-and-Flavor/Dumplings/</loc>
+    <loc>http://laninkstudio.github.io/Minimal-and-Aesthetic/Moon/</loc>
+    
+    <lastmod>2025-11-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/Fun-and-Quirky/Sorry%20I%20don't%20speak%20Chinese/</loc>
+    
+    <lastmod>2025-11-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/Whimsical-and-Cute/cute_dumplings/</loc>
+    
+    <lastmod>2025-11-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/Virtues-and-Values/Destiny/</loc>
     
     <lastmod>2025-11-19</lastmod>
     
@@ -47,7 +74,7 @@
   </url>
   
   <url>
-    <loc>http://laninkstudio.github.io/Fun-and-Quirky/Sorry%20I%20don't%20speak%20Chinese%20copy/</loc>
+    <loc>http://laninkstudio.github.io/Food-and-Flavor/Hotpot/</loc>
     
     <lastmod>2025-11-19</lastmod>
     
@@ -56,7 +83,7 @@
   </url>
   
   <url>
-    <loc>http://laninkstudio.github.io/Virtues-and-Values/Love/</loc>
+    <loc>http://laninkstudio.github.io/Food-and-Flavor/Dumplings/</loc>
     
     <lastmod>2025-11-19</lastmod>
     
@@ -218,15 +245,6 @@
   </url>
   
   <url>
-    <loc>http://laninkstudio.github.io/Virtues-and-Values/Destiny/</loc>
-    
-    <lastmod>2025-11-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://laninkstudio.github.io/Virtues-and-Values/Bravery/</loc>
     
     <lastmod>2025-11-18</lastmod>
@@ -362,14 +380,14 @@
 
   
   <url>
-    <loc>http://laninkstudio.github.io/categories/Virtues-and-Values/</loc>
+    <loc>http://laninkstudio.github.io/categories/Cultural-and-Heritage/</loc>
     <lastmod>2025-11-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://laninkstudio.github.io/categories/Cultural-and-Heritage/</loc>
+    <loc>http://laninkstudio.github.io/categories/Virtues-and-Values/</loc>
     <lastmod>2025-11-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -383,7 +401,21 @@
   </url>
   
   <url>
+    <loc>http://laninkstudio.github.io/categories/Minimal-and-Aesthetic/</loc>
+    <lastmod>2025-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://laninkstudio.github.io/categories/Fun-and-Quirky/</loc>
+    <lastmod>2025-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/categories/Whimsical-and-Cute/</loc>
     <lastmod>2025-11-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
