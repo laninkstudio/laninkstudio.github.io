@@ -163,6 +163,46 @@
 			</ul>
 </nav>
         <!-- Nav 导航条 end -->
+        <script>
+        (function() {
+            // Hide intro when clicking homepage button in nav
+            function setupHomepageClick() {
+                var nav = document.getElementById('nav');
+                if (nav) {
+                    var homepageLink = nav.querySelector('.menu.links li:first-child a');
+                    if (homepageLink) {
+                        homepageLink.addEventListener('click', function(e) {
+                            var intro = document.getElementById('intro');
+                            if (intro) {
+                                intro.style.display = 'none';
+                            }
+                            // If navigating to homepage, set flag to hide on next page load
+                            var href = homepageLink.getAttribute('href');
+                            if (href && href !== window.location.pathname) {
+                                sessionStorage.setItem('hideIntroOnHomepage', 'true');
+                            }
+                        });
+                    }
+                }
+            }
+            
+            // Setup click handler
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', setupHomepageClick);
+            } else {
+                setupHomepageClick();
+            }
+            
+            // Check on page load if we should hide intro
+            if (sessionStorage.getItem('hideIntroOnHomepage') === 'true') {
+                var intro = document.getElementById('intro');
+                if (intro) {
+                    intro.style.display = 'none';
+                }
+                sessionStorage.removeItem('hideIntroOnHomepage');
+            }
+        })();
+        </script>
         <!-- Main 主要部分 start -->
         
         <!-- 文章列表   s -->
@@ -174,10 +214,10 @@
                     
                     <div class="6u 12u(narrower)">
                         <section class="link_box special">
-                           <a href="/Virtues-and-Values/Dream/">
-                            <div class="page_title" style="background-image: url(/images/thumbnail_main/main_dream.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">
+                           <a href="/Virtues-and-Values/Bravery/">
+                            <div class="page_title" style="background-image: url(/images/thumbnail_main/main_bravery.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">
                                 <!--标题-->
-                                <h2 class="page_title_text"> Dream </h2>
+                                <h2 class="page_title_text"> Bravery </h2>
                                 <!--段落-->
                             </div>
                             </a>
