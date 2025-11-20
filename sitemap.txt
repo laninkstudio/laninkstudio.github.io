@@ -40,8 +40,8 @@ http://laninkstudio.github.io/group/index.html
 http://laninkstudio.github.io/gallery/index.html
 http://laninkstudio.github.io/
 http://laninkstudio.github.io/tags/Tattoo/
-http://laninkstudio.github.io/categories/Cultural-and-Heritage/
 http://laninkstudio.github.io/categories/Virtues-and-Values/
+http://laninkstudio.github.io/categories/Cultural-and-Heritage/
 http://laninkstudio.github.io/categories/Food-and-Flavor/
 http://laninkstudio.github.io/categories/Minimal-and-Aesthetic/
 http://laninkstudio.github.io/categories/Fun-and-Quirky/
