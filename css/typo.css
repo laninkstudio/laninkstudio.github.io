@@ -418,10 +418,16 @@ td.button_cell{
   background-color: #79572a;
   vertical-align: middle;
 }
-.foodnfun_section_3_image {
+/* .foodandflavor_section_3_image {
   width: 65%; 
   height: auto; 
   float: right;
+} */
+.image_35_td {
+  width: 35%;
+}
+.image_30_td{
+  width: 30%;
 }
 
 /* 移动端：屏幕宽度小于768px时改为纵向排列 */
@@ -453,11 +459,13 @@ td.button_cell{
     height: 2.5rem; 
   }
 
-  .foodnfun_section_3_image {
-    width: 100%; 
-    height: auto; 
-    float: none! important;
+  .image_35_td{
+    width: 100%;
   }
+  .image_30_td{
+    width: 100%;
+  }
+
 }
 
 /* Prevent copy and paste for typo section */
