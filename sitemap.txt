@@ -1,3 +1,4 @@
+http://laninkstudio.github.io/Food-and-Flavor/Dumplings/
 http://laninkstudio.github.io/Cultural-and-Heritage/Blessing/
 http://laninkstudio.github.io/contact/index.html
 http://laninkstudio.github.io/blog/index.html
@@ -26,7 +27,6 @@ http://laninkstudio.github.io/Virtues-and-Values/Bravery/
 http://laninkstudio.github.io/Virtues-and-Values/Awakening/
 http://laninkstudio.github.io/Fun-and-Quirky/Sorry%20I%20don't%20speak%20Chinese/
 http://laninkstudio.github.io/Food-and-Flavor/Milk%20tea/
-http://laninkstudio.github.io/Food-and-Flavor/Dumplings/
 http://laninkstudio.github.io/Whimsical-and-Cute/cute_dumplings/
 http://laninkstudio.github.io/uncategorized/Chinese%20Calligraphy%20Styles%20Explained/
 http://laninkstudio.github.io/Food-and-Flavor/Rice/
