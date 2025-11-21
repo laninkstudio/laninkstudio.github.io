@@ -418,6 +418,11 @@ td.button_cell{
   background-color: #79572a;
   vertical-align: middle;
 }
+.foodnfun_section_3_image {
+  width: 65%; 
+  height: auto; 
+  float: right;
+}
 
 /* 移动端：屏幕宽度小于768px时改为纵向排列 */
 @media (max-width: 768px) {
@@ -446,5 +451,11 @@ td.button_cell{
     /* float: none !important; */
     display: block;
     height: 2.5rem; 
+  }
+
+  .foodnfun_section_3_image {
+    width: 100%; 
+    height: auto; 
+    float: none! important;
   }
 }
