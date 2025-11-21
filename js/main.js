@@ -274,6 +274,22 @@
 
 			}
 
+		// Prevent copy, cut, and paste for typo section
+			$('.typo').on('copy cut paste', function(e) {
+				e.preventDefault();
+				return false;
+			});
+
+
+			// Prevent keyboard shortcuts (Ctrl+C, Ctrl+V, Ctrl+X, Ctrl+A)
+			$('.typo').on('keydown', function(e) {
+				// Ctrl+C (Copy), Ctrl+V (Paste), Ctrl+X (Cut), Ctrl+A (Select All)
+				if ((e.ctrlKey || e.metaKey) && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 88 || e.keyCode === 65)) {
+					e.preventDefault();
+					return false;
+				}
+			});
+
 	});
 
 })(jQuery);

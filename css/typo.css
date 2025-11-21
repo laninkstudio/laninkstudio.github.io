@@ -459,3 +459,14 @@ td.button_cell{
     float: none! important;
   }
 }
+
+/* Prevent copy and paste for typo section */
+.typo,
+.typo * {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+}
