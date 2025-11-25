@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://laninkstudio.github.io/Food-and-Flavor/Milk%20tea/</loc>
+    <loc>http://laninkstudio.github.io/Minimal-and-Aesthetic/Rain/</loc>
     
     <lastmod>2025-11-25</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://laninkstudio.github.io/Minimal-and-Aesthetic/mountain/</loc>
+    <loc>http://laninkstudio.github.io/Minimal-and-Aesthetic/Water/</loc>
     
     <lastmod>2025-11-25</lastmod>
     
@@ -20,43 +20,7 @@
   </url>
   
   <url>
-    <loc>http://laninkstudio.github.io/Minimal-and-Aesthetic/Moon/</loc>
-    
-    <lastmod>2025-11-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://laninkstudio.github.io/Virtues-and-Values/Dream/</loc>
-    
-    <lastmod>2025-11-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://laninkstudio.github.io/Cultural-and-Heritage/Dragon/</loc>
-    
-    <lastmod>2025-11-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://laninkstudio.github.io/Virtues-and-Values/Destiny/</loc>
-    
-    <lastmod>2025-11-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://laninkstudio.github.io/Virtues-and-Values/Bravery/</loc>
+    <loc>http://laninkstudio.github.io/Virtues-and-Values/Awakening/</loc>
     
     <lastmod>2025-11-25</lastmod>
     
@@ -74,7 +38,16 @@
   </url>
   
   <url>
-    <loc>http://laninkstudio.github.io/Virtues-and-Values/Awakening/</loc>
+    <loc>http://laninkstudio.github.io/Virtues-and-Values/Destiny/</loc>
+    
+    <lastmod>2025-11-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/Cultural-and-Heritage/Dragon/</loc>
     
     <lastmod>2025-11-25</lastmod>
     
@@ -102,6 +75,51 @@
   
   <url>
     <loc>http://laninkstudio.github.io/Food-and-Flavor/Noodles/</loc>
+    
+    <lastmod>2025-11-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/Minimal-and-Aesthetic/Moon/</loc>
+    
+    <lastmod>2025-11-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/Minimal-and-Aesthetic/Mountain/</loc>
+    
+    <lastmod>2025-11-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/Food-and-Flavor/Milk%20tea/</loc>
+    
+    <lastmod>2025-11-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/Virtues-and-Values/Dream/</loc>
+    
+    <lastmod>2025-11-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/Virtues-and-Values/Bravery/</loc>
     
     <lastmod>2025-11-25</lastmod>
     
