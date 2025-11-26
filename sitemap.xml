@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://laninkstudio.github.io/Fun-and-Quirky/Just%20here%20on%20Earth%20filling%20a%20spot,%20nothing%20fancy/</loc>
+    
+    <lastmod>2025-11-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/Fun-and-Quirky/Sorry%20I%20don't%20speak%20Chinese/</loc>
+    
+    <lastmod>2025-11-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/Fun-and-Quirky/Socially%20awkward/</loc>
+    
+    <lastmod>2025-11-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/Fun-and-Quirky/I%20require%20bubble%20tea%20for%20survival%20purposes/</loc>
+    
+    <lastmod>2025-11-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://laninkstudio.github.io/Minimal-and-Aesthetic/Rain/</loc>
     
     <lastmod>2025-11-25</lastmod>
@@ -254,15 +290,6 @@
   </url>
   
   <url>
-    <loc>http://laninkstudio.github.io/Fun-and-Quirky/Sorry%20I%20don't%20speak%20Chinese/</loc>
-    
-    <lastmod>2025-11-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://laninkstudio.github.io/contact/index.html</loc>
     
     <lastmod>2025-11-20</lastmod>
@@ -428,14 +455,14 @@
   </url>
   
   <url>
-    <loc>http://laninkstudio.github.io/categories/Minimal-and-Aesthetic/</loc>
+    <loc>http://laninkstudio.github.io/categories/Fun-and-Quirky/</loc>
     <lastmod>2025-11-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://laninkstudio.github.io/categories/Fun-and-Quirky/</loc>
+    <loc>http://laninkstudio.github.io/categories/Minimal-and-Aesthetic/</loc>
     <lastmod>2025-11-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

@@ -1,3 +1,7 @@
+http://laninkstudio.github.io/Fun-and-Quirky/Just%20here%20on%20Earth%20filling%20a%20spot,%20nothing%20fancy/
+http://laninkstudio.github.io/Fun-and-Quirky/Sorry%20I%20don't%20speak%20Chinese/
+http://laninkstudio.github.io/Fun-and-Quirky/Socially%20awkward/
+http://laninkstudio.github.io/Fun-and-Quirky/I%20require%20bubble%20tea%20for%20survival%20purposes/
 http://laninkstudio.github.io/Minimal-and-Aesthetic/Rain/
 http://laninkstudio.github.io/Minimal-and-Aesthetic/Water/
 http://laninkstudio.github.io/Virtues-and-Values/Awakening/
@@ -26,7 +30,6 @@ http://laninkstudio.github.io/Virtues-and-Values/Hope/
 http://laninkstudio.github.io/Cultural-and-Heritage/Harmony/
 http://laninkstudio.github.io/Cultural-and-Heritage/God/
 http://laninkstudio.github.io/Virtues-and-Values/Freedom/
-http://laninkstudio.github.io/Fun-and-Quirky/Sorry%20I%20don't%20speak%20Chinese/
 http://laninkstudio.github.io/contact/index.html
 http://laninkstudio.github.io/blog/index.html
 http://laninkstudio.github.io/about/index.html
@@ -46,6 +49,6 @@ http://laninkstudio.github.io/tags/Tattoo/
 http://laninkstudio.github.io/categories/Cultural-and-Heritage/
 http://laninkstudio.github.io/categories/Virtues-and-Values/
 http://laninkstudio.github.io/categories/Food-and-Flavor/
-http://laninkstudio.github.io/categories/Minimal-and-Aesthetic/
 http://laninkstudio.github.io/categories/Fun-and-Quirky/
+http://laninkstudio.github.io/categories/Minimal-and-Aesthetic/
 http://laninkstudio.github.io/categories/Whimsical-and-Cute/
