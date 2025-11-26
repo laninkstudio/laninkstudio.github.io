@@ -8,7 +8,6 @@ http://laninkstudio.github.io/Food-and-Flavor/Dumplings/
 http://laninkstudio.github.io/Food-and-Flavor/Rice/
 http://laninkstudio.github.io/Food-and-Flavor/Noodles/
 http://laninkstudio.github.io/Minimal-and-Aesthetic/Moon/
-http://laninkstudio.github.io/Minimal-and-Aesthetic/Mountain/
 http://laninkstudio.github.io/Food-and-Flavor/Milk%20tea/
 http://laninkstudio.github.io/Virtues-and-Values/Dream/
 http://laninkstudio.github.io/Virtues-and-Values/Bravery/
