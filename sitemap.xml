@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://laninkstudio.github.io/custom/index.html</loc>
+    
+    <lastmod>2025-11-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/Fun-and-Quirky/Socially%20awkward/</loc>
+    
+    <lastmod>2025-11-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/Food-and-Flavor/Dumplings/</loc>
+    
+    <lastmod>2025-11-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://laninkstudio.github.io/Minimal-and-Aesthetic/Mountain/</loc>
     
     <lastmod>2025-11-26</lastmod>
@@ -48,15 +75,6 @@
   
   <url>
     <loc>http://laninkstudio.github.io/Fun-and-Quirky/Sorry%20I%20don't%20speak%20Chinese/</loc>
-    
-    <lastmod>2025-11-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://laninkstudio.github.io/Fun-and-Quirky/Socially%20awkward/</loc>
     
     <lastmod>2025-11-26</lastmod>
     
@@ -120,15 +138,6 @@
   
   <url>
     <loc>http://laninkstudio.github.io/Cultural-and-Heritage/Dragon/</loc>
-    
-    <lastmod>2025-11-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://laninkstudio.github.io/Food-and-Flavor/Dumplings/</loc>
     
     <lastmod>2025-11-25</lastmod>
     
@@ -318,15 +327,6 @@
   
   <url>
     <loc>http://laninkstudio.github.io/about/index.html</loc>
-    
-    <lastmod>2025-11-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://laninkstudio.github.io/custom/index.html</loc>
     
     <lastmod>2025-11-20</lastmod>
     
