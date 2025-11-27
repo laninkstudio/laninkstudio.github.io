@@ -1,6 +1,11 @@
+http://laninkstudio.github.io/Fun-and-Quirky/Socially_awkward/
+http://laninkstudio.github.io/Fun-and-Quirky/I_require_bubble_tea_for_survival_purposes/
+http://laninkstudio.github.io/Fun-and-Quirky/Just_here_on_Earth_filling_a_spot_nothing_fancy/
+http://laninkstudio.github.io/Fun-and-Quirky/Sorry_I_dont_speak_Chinese/
 http://laninkstudio.github.io/custom/index.html
 http://laninkstudio.github.io/Food-and-Flavor/Dumplings/
 http://laninkstudio.github.io/Minimal-and-Aesthetic/Mountain/
+http://laninkstudio.github.io/Food-and-Flavor/Milk_tea/
 http://laninkstudio.github.io/Whimsical-and-Cute/cute_dumplings/
 http://laninkstudio.github.io/shop/index.html
 http://laninkstudio.github.io/Minimal-and-Aesthetic/Rain/
@@ -16,6 +21,7 @@ http://laninkstudio.github.io/Virtues-and-Values/Dream/
 http://laninkstudio.github.io/Virtues-and-Values/Bravery/
 http://laninkstudio.github.io/Virtues-and-Values/Truth/
 http://laninkstudio.github.io/Virtues-and-Values/Transform/
+http://laninkstudio.github.io/Cultural-and-Heritage/The_Way/
 http://laninkstudio.github.io/Virtues-and-Values/Stillness/
 http://laninkstudio.github.io/Virtues-and-Values/Soul/
 http://laninkstudio.github.io/Virtues-and-Values/Love/
@@ -29,6 +35,11 @@ http://laninkstudio.github.io/Virtues-and-Values/Freedom/
 http://laninkstudio.github.io/contact/index.html
 http://laninkstudio.github.io/blog/index.html
 http://laninkstudio.github.io/about/index.html
+http://laninkstudio.github.io/uncategorized/How_to_Choose%20the_Perfect_Placement_for_Your_Chinese_Tattoo/
+http://laninkstudio.github.io/uncategorized/Chinese_Calligraphy_Styles_Explained/
+http://laninkstudio.github.io/uncategorized/Font_vs_handwritten_Chinese_Tattoos/
+http://laninkstudio.github.io/uncategorized/Top_50_Chinese_Characters_for_Tattoos/
+http://laninkstudio.github.io/uncategorized/Common_Chinese_Tattoo_Mistakes/
 http://laninkstudio.github.io/payment/index.html
 http://laninkstudio.github.io/group/index.html
 http://laninkstudio.github.io/gallery/index.html
@@ -37,5 +48,6 @@ http://laninkstudio.github.io/tags/Tattoo/
 http://laninkstudio.github.io/categories/Virtues-and-Values/
 http://laninkstudio.github.io/categories/Cultural-and-Heritage/
 http://laninkstudio.github.io/categories/Food-and-Flavor/
+http://laninkstudio.github.io/categories/Fun-and-Quirky/
 http://laninkstudio.github.io/categories/Minimal-and-Aesthetic/
 http://laninkstudio.github.io/categories/Whimsical-and-Cute/

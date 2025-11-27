@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://laninkstudio.github.io/Fun-and-Quirky/Socially_awkward/</loc>
+    
+    <lastmod>2025-11-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/Fun-and-Quirky/I_require_bubble_tea_for_survival_purposes/</loc>
+    
+    <lastmod>2025-11-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/Fun-and-Quirky/Just_here_on_Earth_filling_a_spot_nothing_fancy/</loc>
+    
+    <lastmod>2025-11-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/Fun-and-Quirky/Sorry_I_dont_speak_Chinese/</loc>
+    
+    <lastmod>2025-11-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://laninkstudio.github.io/custom/index.html</loc>
     
     <lastmod>2025-11-26</lastmod>
@@ -21,6 +57,15 @@
   
   <url>
     <loc>http://laninkstudio.github.io/Minimal-and-Aesthetic/Mountain/</loc>
+    
+    <lastmod>2025-11-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/Food-and-Flavor/Milk_tea/</loc>
     
     <lastmod>2025-11-26</lastmod>
     
@@ -164,6 +209,15 @@
   </url>
   
   <url>
+    <loc>http://laninkstudio.github.io/Cultural-and-Heritage/The_Way/</loc>
+    
+    <lastmod>2025-11-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://laninkstudio.github.io/Virtues-and-Values/Stillness/</loc>
     
     <lastmod>2025-11-25</lastmod>
@@ -281,6 +335,51 @@
   </url>
   
   <url>
+    <loc>http://laninkstudio.github.io/uncategorized/How_to_Choose%20the_Perfect_Placement_for_Your_Chinese_Tattoo/</loc>
+    
+    <lastmod>2025-11-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/uncategorized/Chinese_Calligraphy_Styles_Explained/</loc>
+    
+    <lastmod>2025-11-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/uncategorized/Font_vs_handwritten_Chinese_Tattoos/</loc>
+    
+    <lastmod>2025-11-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/uncategorized/Top_50_Chinese_Characters_for_Tattoos/</loc>
+    
+    <lastmod>2025-11-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/uncategorized/Common_Chinese_Tattoo_Mistakes/</loc>
+    
+    <lastmod>2025-11-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://laninkstudio.github.io/payment/index.html</loc>
     
     <lastmod>2025-10-28</lastmod>
@@ -341,6 +440,13 @@
   
   <url>
     <loc>http://laninkstudio.github.io/categories/Food-and-Flavor/</loc>
+    <lastmod>2025-11-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/categories/Fun-and-Quirky/</loc>
     <lastmod>2025-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
