@@ -1,3 +1,4 @@
+http://laninkstudio.github.io/Virtues-and-Values/Soul/
 http://laninkstudio.github.io/Minimal-and-Aesthetic/Water/
 http://laninkstudio.github.io/Cultural-and-Heritage/Harmony/
 http://laninkstudio.github.io/Food-and-Flavor/Milk_tea/
@@ -24,7 +25,6 @@ http://laninkstudio.github.io/Virtues-and-Values/Truth/
 http://laninkstudio.github.io/Virtues-and-Values/Transform/
 http://laninkstudio.github.io/Cultural-and-Heritage/The_Way/
 http://laninkstudio.github.io/Virtues-and-Values/Stillness/
-http://laninkstudio.github.io/Virtues-and-Values/Soul/
 http://laninkstudio.github.io/Virtues-and-Values/Love/
 http://laninkstudio.github.io/Virtues-and-Values/Light/
 http://laninkstudio.github.io/Cultural-and-Heritage/Karma/
