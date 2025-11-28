@@ -1,3 +1,4 @@
+http://laninkstudio.github.io/Cultural-and-Heritage/Blessing/
 http://laninkstudio.github.io/Minimal-and-Aesthetic/Water/
 http://laninkstudio.github.io/Virtues-and-Values/Truth/
 http://laninkstudio.github.io/Virtues-and-Values/Transform/
@@ -26,7 +27,6 @@ http://laninkstudio.github.io/Virtues-and-Values/Dream/
 http://laninkstudio.github.io/Cultural-and-Heritage/Dragon/
 http://laninkstudio.github.io/Virtues-and-Values/Destiny/
 http://laninkstudio.github.io/Virtues-and-Values/Bravery/
-http://laninkstudio.github.io/Cultural-and-Heritage/Blessing/
 http://laninkstudio.github.io/Virtues-and-Values/Awakening/
 http://laninkstudio.github.io/Virtues-and-Values/Soul/
 http://laninkstudio.github.io/custom/index.html
