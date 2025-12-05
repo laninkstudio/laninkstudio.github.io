@@ -1,3 +1,5 @@
+http://laninkstudio.github.io/Minimal-and-Aesthetic/Mountain/
+http://laninkstudio.github.io/Food-and-Flavor/Noodles/
 http://laninkstudio.github.io/shop/index.html
 http://laninkstudio.github.io/Food-and-Flavor/Dumplings/
 http://laninkstudio.github.io/Virtues-and-Values/Awakening/
@@ -16,8 +18,6 @@ http://laninkstudio.github.io/Fun-and-Quirky/Sorry_I_dont_speak_Chinese/
 http://laninkstudio.github.io/Fun-and-Quirky/Socially_awkward/
 http://laninkstudio.github.io/Food-and-Flavor/Rice/
 http://laninkstudio.github.io/Minimal-and-Aesthetic/Rain/
-http://laninkstudio.github.io/Food-and-Flavor/Noodles/
-http://laninkstudio.github.io/Minimal-and-Aesthetic/Mountain/
 http://laninkstudio.github.io/Minimal-and-Aesthetic/Moon/
 http://laninkstudio.github.io/Food-and-Flavor/Milk_tea/
 http://laninkstudio.github.io/Virtues-and-Values/Love/
@@ -45,8 +45,8 @@ http://laninkstudio.github.io/group/index.html
 http://laninkstudio.github.io/gallery/index.html
 http://laninkstudio.github.io/
 http://laninkstudio.github.io/tags/Tattoo/
-http://laninkstudio.github.io/categories/Virtues-and-Values/
 http://laninkstudio.github.io/categories/Cultural-and-Heritage/
+http://laninkstudio.github.io/categories/Virtues-and-Values/
 http://laninkstudio.github.io/categories/Food-and-Flavor/
 http://laninkstudio.github.io/categories/Fun-and-Quirky/
 http://laninkstudio.github.io/categories/Minimal-and-Aesthetic/
