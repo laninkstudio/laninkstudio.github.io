@@ -1,9 +1,9 @@
-http://laninkstudio.github.io/shop/index.html
 http://laninkstudio.github.io/payment/index.html
 http://laninkstudio.github.io/contact/index.html
 http://laninkstudio.github.io/about/index.html
-http://laninkstudio.github.io/blog/index.html
 http://laninkstudio.github.io/custom/index.html
+http://laninkstudio.github.io/shop/index.html
+http://laninkstudio.github.io/blog/index.html
 http://laninkstudio.github.io/Cultural-and-Heritage/Blessing/
 http://laninkstudio.github.io/Minimal-and-Aesthetic/Water/
 http://laninkstudio.github.io/Virtues-and-Values/Truth/

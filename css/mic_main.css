@@ -2410,41 +2410,48 @@
 					color: #724914;
 				} */
 
-				#me header > p {
-					/* position: absolute;
-					left: 0;
-					margin-top: 0; */
+				#me header > h1 {
 					font-size: 1em;
 					letter-spacing: 0.005em;
 					color: #724914;
 					font-weight: bold;
 					font-family: Arial, Helvetica, sans-serif;
-					/* font-family: Open sans; */
 					text-align: center;
-					
 				}
-				#me header > p.para0 {
+
+				#me header > h2 {
+					font-size: 1em;
+					letter-spacing: 0.005em;
+					color: #724914;
+					font-weight: bold;
+					font-family: Arial, Helvetica, sans-serif;
+					text-align: center;
+				}
+
+				#me header > h1.para0 {
 					display: none;
 				}
 
-				#me header > p.para1 {
+				#me header > h1.para1 {
 					font-size: 2.4em;
 					text-transform : Capitalize;
 					/* bottom: 55%; */
 					color: #5e3c11;
-					margin-top: 2.6rem;
+					margin-top: 3.4rem;
 					margin-bottom:0;
 					/* text-align: center; */
 				}
 
-				#me header > p.para2 {
+				#me header > h2.para2 {
 					font-size: 1.8em;
-					margin-bottom: 1.2rem;
+					margin-top: 2.2rem;
+					margin-bottom: 2.3rem;
+					text-transform : none;
 					/* bottom: 40%;
 					text-align: center; */
 				}
 
-				#me header > p.para3 {
+				#me header > h2.para3 {
 					display: none;
 				}
 				.shop-now {
@@ -2489,6 +2496,7 @@
 		#me header > p.para2 {
 			font-size: 1.5em;
 			margin-bottom: 1.2rem;
+			text-transform : none;
 			/* bottom: 40%;
 			text-align: center; */
 		}
@@ -2569,14 +2577,14 @@
 				text-align: center;
 			}
 
-				#me header > h1 {
+				/* #me header > h1 {
 					font-size: 2em;
 					text-transform : Capitalize;
 					letter-spacing: -0.025em;
 					color: #704814;
-				}
+				} */
 
-				#me header > p {
+				#me header > h1 {
 					text-align: center;
 					font-size: 1.2em;
 					font-family:  Arial, Helvetica, sans-serif;
@@ -2584,11 +2592,19 @@
 					font-weight: bold;
 					margin-top: 0.5 rem;
 				}
-				#me header > p.para0 {
+				#me header > h2 {
+					text-align: center;
+					font-size: 1.2em;
+					font-family:  Arial, Helvetica, sans-serif;
+					color: #724914;
+					font-weight: bold;
+					margin-top: 0.5 rem;
+				}
+				#me header > h1.para0 {
 					display: none;
 				}
 
-				#me header > p.para1 {
+				#me header > h1.para1 {
 					font-size: 1.7em;
 					text-transform : Capitalize;
 					color: #5e3c11;
@@ -2596,14 +2612,15 @@
 					margin-bottom: 2.3rem;
 				}
 
-				#me header > p.para2 {
+				#me header > h2.para2 {
 					/* margin-bottom: 1rem; */
 					display: none;
 				}
 
-				#me header > p.para3 {
+				#me header > h2.para3 {
 					font-size: 1.4em;
 					margin-bottom: 2.5rem;
+					text-transform : none;
 				}
 				.shop-now {
 					height: 2.5rem;
@@ -2626,7 +2643,7 @@
 
 	@media screen and (max-width: 622px) {
 		/* me */
-		#me header > p.para0 {
+		#me header > h1.para0 {
 			display: block;
 			font-size: 2em;
 			text-transform : Capitalize;
@@ -2635,11 +2652,12 @@
 			margin-bottom: 2.5rem;
 		}
 
-		#me header > p.para1 {
+		#me header > h1.para1 {
 			display: none;
 		}
 
-		#me header > p.para3 {
+		#me header > h2.para3 {
+			text-transform : none;
 			font-size: 1.4em;
 		}
 
@@ -2647,7 +2665,7 @@
 
 	@media screen and (max-width: 450px) {
 		/* me */
-		#me header > p.para0 {
+		#me header > h1.para0 {
 			display: block;
 			font-size: 1.6em;
 			text-transform : Capitalize;
@@ -2656,11 +2674,12 @@
 			margin-bottom: 2rem;
 		}
 
-		#me header > p.para1 {
+		#me header > h1.para1 {
 			display: none;
 		}
 
-		#me header > p.para3 {
+		#me header > h2.para3 {
+			text-transform : none;
 			font-size: 1.15em;
 			margin-bottom: 2rem;
 		}
@@ -2669,7 +2688,7 @@
 
 	@media screen and (max-width: 358px) {
 
-		#me header > p.para0 {
+		#me header > h1.para0 {
 			font-size: 1.45em;
 		}
 
@@ -2677,7 +2696,8 @@
 
 	@media screen and (max-width: 377px) {
 
-		#me header > p.para3 {
+		#me header > h2.para3 {
+			text-transform : none;
 			font-size: 1.05rem;
 		}
 
