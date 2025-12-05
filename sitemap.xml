@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://laninkstudio.github.io/shop/index.html</loc>
+    
+    <lastmod>2025-12-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/Food-and-Flavor/Dumplings/</loc>
+    
+    <lastmod>2025-12-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/Virtues-and-Values/Awakening/</loc>
+    
+    <lastmod>2025-12-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/blog/index.html</loc>
+    
+    <lastmod>2025-12-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://laninkstudio.github.io/payment/index.html</loc>
     
     <lastmod>2025-12-05</lastmod>
@@ -32,24 +68,6 @@
     <loc>http://laninkstudio.github.io/custom/index.html</loc>
     
     <lastmod>2025-12-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://laninkstudio.github.io/shop/index.html</loc>
-    
-    <lastmod>2025-12-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://laninkstudio.github.io/blog/index.html</loc>
-    
-    <lastmod>2025-12-04</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -272,15 +290,6 @@
   </url>
   
   <url>
-    <loc>http://laninkstudio.github.io/Food-and-Flavor/Dumplings/</loc>
-    
-    <lastmod>2025-11-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://laninkstudio.github.io/Virtues-and-Values/Dream/</loc>
     
     <lastmod>2025-11-28</lastmod>
@@ -309,15 +318,6 @@
   
   <url>
     <loc>http://laninkstudio.github.io/Virtues-and-Values/Bravery/</loc>
-    
-    <lastmod>2025-11-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://laninkstudio.github.io/Virtues-and-Values/Awakening/</loc>
     
     <lastmod>2025-11-28</lastmod>
     
