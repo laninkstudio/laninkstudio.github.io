@@ -419,7 +419,7 @@
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-		border-bottom: dotted 1px;
+		/* border-bottom: dotted 1px; */
 		text-decoration: none;
 	}
 
@@ -4599,8 +4599,8 @@
 
 /* post-contant */
 .typo a{
-	/* border-bottom: 0; */
-	border-bottom: 1px solid #ddd; 
+	/* border-bottom: none; */
+	/* border-bottom: 1px solid #ddd;  */
 	color: red;
 }
 		@media screen and (max-width: 480px) {
@@ -4671,7 +4671,7 @@
 		padding: 0;
 	}
 	.post-content a{
-		border-bottom: none;
+		/* border-bottom: none; */
 		color: #00E5EE;
 	}
 	.post-content img{

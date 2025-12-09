@@ -1,3 +1,4 @@
+http://laninkstudio.github.io/Cultural-and-Heritage/Blessing/
 http://laninkstudio.github.io/Minimal-and-Aesthetic/Water/
 http://laninkstudio.github.io/Food-and-Flavor/Rice/
 http://laninkstudio.github.io/Minimal-and-Aesthetic/Moon/
@@ -7,7 +8,6 @@ http://laninkstudio.github.io/Cultural-and-Heritage/Harmony/
 http://laninkstudio.github.io/Food-and-Flavor/Dumplings/
 http://laninkstudio.github.io/Virtues-and-Values/Dream/
 http://laninkstudio.github.io/Virtues-and-Values/Bravery/
-http://laninkstudio.github.io/Cultural-and-Heritage/Blessing/
 http://laninkstudio.github.io/Virtues-and-Values/Stillness/
 http://laninkstudio.github.io/Virtues-and-Values/Destiny/
 http://laninkstudio.github.io/Virtues-and-Values/Freedom/
@@ -46,8 +46,8 @@ http://laninkstudio.github.io/group/index.html
 http://laninkstudio.github.io/gallery/index.html
 http://laninkstudio.github.io/
 http://laninkstudio.github.io/tags/Tattoo/
-http://laninkstudio.github.io/categories/Virtues-and-Values/
 http://laninkstudio.github.io/categories/Cultural-and-Heritage/
+http://laninkstudio.github.io/categories/Virtues-and-Values/
 http://laninkstudio.github.io/categories/Food-and-Flavor/
 http://laninkstudio.github.io/categories/Fun-and-Quirky/
 http://laninkstudio.github.io/categories/Minimal-and-Aesthetic/
