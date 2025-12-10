@@ -39,7 +39,6 @@ http://laninkstudio.github.io/about/index.html
 http://laninkstudio.github.io/custom/index.html
 http://laninkstudio.github.io/Fun-and-Quirky/Socially_awkward/
 http://laninkstudio.github.io/Fun-and-Quirky/Just_here_on_Earth_filling_a_spot_nothing_fancy/
-http://laninkstudio.github.io/blog/Font_vs_handwritten_Chinese_Tattoos/
 http://laninkstudio.github.io/group/index.html
 http://laninkstudio.github.io/gallery/index.html
 http://laninkstudio.github.io/
