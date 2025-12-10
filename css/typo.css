@@ -437,6 +437,24 @@ td.button_cell{
   width: 25%;
 }
 
+.link-text {
+  border-bottom: 1px dotted #666;
+}
+.link-text:hover {
+  border-bottom: 1px dotted #666;
+}
+
+.blog-link-image-2-grid {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
 .blog-link-image-grid {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -529,6 +547,9 @@ td.button_cell{
     width: 100%;
   }
 
+  .blog-link-image-2-grid {
+    width: 100%;
+  }
   .blog-link-image-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -544,6 +565,9 @@ td.button_cell{
 }
 
 @media (max-width: 400px) {
+  .blog-link-image-2-grid {
+    grid-template-columns: 1fr;
+  }
   .blog-link-image-grid {
     grid-template-columns: 1fr;
   }
