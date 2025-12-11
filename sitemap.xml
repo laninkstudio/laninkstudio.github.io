@@ -2,6 +2,60 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://laninkstudio.github.io/Virtues-and-Values/dream/</loc>
+    
+    <lastmod>2025-12-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/Virtues-and-Values/bravery/</loc>
+    
+    <lastmod>2025-12-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/Virtues-and-Values/destiny/</loc>
+    
+    <lastmod>2025-12-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/Cultural-and-Heritage/dragon/</loc>
+    
+    <lastmod>2025-12-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/Cultural-and-Heritage/blessing/</loc>
+    
+    <lastmod>2025-12-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/Virtues-and-Values/awakening/</loc>
+    
+    <lastmod>2025-12-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://laninkstudio.github.io/blog/how-to-choose-your-chinese-tattoo-expert-tips-from-a-chinese-calligrapher/</loc>
     
     <lastmod>2025-12-11</lastmod>
@@ -236,60 +290,6 @@
   </url>
   
   <url>
-    <loc>http://laninkstudio.github.io/Virtues-and-Values/Dream/</loc>
-    
-    <lastmod>2025-12-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://laninkstudio.github.io/Cultural-and-Heritage/Dragon/</loc>
-    
-    <lastmod>2025-12-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://laninkstudio.github.io/Virtues-and-Values/Destiny/</loc>
-    
-    <lastmod>2025-12-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://laninkstudio.github.io/Virtues-and-Values/Bravery/</loc>
-    
-    <lastmod>2025-12-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://laninkstudio.github.io/Cultural-and-Heritage/Blessing/</loc>
-    
-    <lastmod>2025-12-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://laninkstudio.github.io/Virtues-and-Values/Awakening/</loc>
-    
-    <lastmod>2025-12-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://laninkstudio.github.io/blog/chinese-calligraphy-styles-explained-which-one-is-right-for-your-tattoo/</loc>
     
     <lastmod>2025-12-10</lastmod>
@@ -407,6 +407,13 @@
 
   
   <url>
+    <loc>http://laninkstudio.github.io/categories/Food-and-Flavor/</loc>
+    <lastmod>2025-12-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://laninkstudio.github.io/categories/Virtues-and-Values/</loc>
     <lastmod>2025-12-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -429,13 +436,6 @@
   
   <url>
     <loc>http://laninkstudio.github.io/categories/Minimal-and-Aesthetic/</loc>
-    <lastmod>2025-12-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://laninkstudio.github.io/categories/Food-and-Flavor/</loc>
     <lastmod>2025-12-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
