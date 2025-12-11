@@ -504,6 +504,20 @@ td.button_cell{
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
+.intro-section {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  display: block;
+  padding: 15px; 
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+/* .intro-section { display: flex; align-items: center; gap: 40px; } */
+.intro-photo img { width: 150px; height: 200px; border-radius: 10%; object-fit: cover; }
+/* .intro-text-td { padding-left: 1rem;} */
 
 /* 移动端：屏幕宽度小于768px时改为纵向排列 */
 @media (max-width: 768px) {
@@ -560,6 +574,8 @@ td.button_cell{
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1.5rem;
   }
+  .intro-section { width: 100%;}
+  .intro-text p { text-align: center;}
   
 
 }
