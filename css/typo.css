@@ -424,6 +424,9 @@ td.button_cell{
   height: auto; 
   float: right;
 } */
+.image_50_td {
+  width: 50%;
+}
 .image_35_td {
   width: 35%;
 }
@@ -548,6 +551,9 @@ td.button_cell{
     height: 2.5rem;
   }
 
+  .image_50_td{
+    width: 100%;
+  }
   .image_35_td{
     width: 100%;
   }
