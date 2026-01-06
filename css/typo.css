@@ -471,19 +471,23 @@ td.button_cell{
   border: 1px solid #ddd; 
   border-radius: 8px; 
   text-decoration: none; 
-  color: inherit;
+  color: #1e252d;
   transition: all 0.3s;
 }
 
 .link-card:hover {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  /* border-color: #096bac; */
   transform: translateY(-2px);
 }
 
 .link-card-body {
   margin: 0;
 }
+
+.link-card:hover .link-card-body p strong {
+  color: #02a4d1;
+}
+
 .link-card-image {
   position: relative;
   width: 100%;
