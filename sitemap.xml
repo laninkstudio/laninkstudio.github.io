@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://laninkstudio.github.io/Virtues-and-Values/awakening/</loc>
+    
+    <lastmod>2026-01-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/Cultural-and-Heritage/blessing/</loc>
+    
+    <lastmod>2026-01-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://laninkstudio.github.io/Virtues-and-Values/bravery/</loc>
+    
+    <lastmod>2026-01-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://laninkstudio.github.io/blog/top-50-chinese-characters-for-tattoos-with-accurate-meanings/</loc>
     
     <lastmod>2026-01-06</lastmod>
@@ -75,15 +102,6 @@
   
   <url>
     <loc>http://laninkstudio.github.io/Virtues-and-Values/soul/</loc>
-    
-    <lastmod>2026-01-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://laninkstudio.github.io/Cultural-and-Heritage/blessing/</loc>
     
     <lastmod>2026-01-06</lastmod>
     
@@ -281,24 +299,6 @@
   </url>
   
   <url>
-    <loc>http://laninkstudio.github.io/Virtues-and-Values/bravery/</loc>
-    
-    <lastmod>2026-01-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://laninkstudio.github.io/Virtues-and-Values/awakening/</loc>
-    
-    <lastmod>2026-01-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://laninkstudio.github.io/blog/chinese-calligraphy-styles-explained-which-one-is-right-for-tattoos/</loc>
     
     <lastmod>2025-12-26</lastmod>
@@ -382,7 +382,7 @@
 
   <url>
     <loc>http://laninkstudio.github.io/</loc>
-    <lastmod>2026-01-06</lastmod>
+    <lastmod>2026-01-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -390,7 +390,7 @@
   
   <url>
     <loc>http://laninkstudio.github.io/tags/Tattoo/</loc>
-    <lastmod>2026-01-06</lastmod>
+    <lastmod>2026-01-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -399,35 +399,35 @@
   
   <url>
     <loc>http://laninkstudio.github.io/categories/Virtues-and-Values/</loc>
-    <lastmod>2026-01-06</lastmod>
+    <lastmod>2026-01-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://laninkstudio.github.io/categories/Cultural-and-Heritage/</loc>
-    <lastmod>2026-01-06</lastmod>
+    <lastmod>2026-01-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://laninkstudio.github.io/categories/Food-and-Flavor/</loc>
-    <lastmod>2026-01-06</lastmod>
+    <lastmod>2026-01-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://laninkstudio.github.io/categories/Fun-and-Quirky/</loc>
-    <lastmod>2026-01-06</lastmod>
+    <lastmod>2026-01-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://laninkstudio.github.io/categories/Minimal-and-Aesthetic/</loc>
-    <lastmod>2026-01-06</lastmod>
+    <lastmod>2026-01-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
