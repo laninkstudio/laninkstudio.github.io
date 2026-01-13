@@ -1,30 +1,45 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 
 <head>
-	<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WBL9JH4MGK"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-WBL9JH4MGK');
-</script>
+	<!-- Resource Hints for Performance -->
+	<link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+	<link rel="dns-prefetch" href="https://www.googletagmanager.com">
+	
+	
+	<!-- Google tag (gtag.js) - Optimized for performance -->
+	<script>
+		// Initialize Google Analytics
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-WBL9JH4MGK');
+	</script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-WBL9JH4MGK"></script>
+	
 	<link rel="icon" type="image/x-icon" href="/favicon.ico">
 	<link rel="icon" type="image/png" sizes="48x48" href="/favicon.png">
-	<link rel="shortcut icon" type="image/png" href="/favicon.png">  
-	
+	<link rel="shortcut icon" type="image/png" href="/favicon.png">
 	<!-- <link rel="bookmark"  type="image/x-icon"  href="favicon.png"/> -->
-	<!-- <link rel="icon" type="image/x-icon" href="favicon.png"> -->
 	<meta http-equiv='content-language' content='en-us'>
 	
 			    
     <title>Authentic Chinese Tattoo Designs &amp; Calligraphy Art | Lán Ink Studio</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <!-- Preload critical CSS for faster rendering -->
+    <link rel="preload" href="/css/mic_main.css" as="style">
     <link rel="stylesheet" href="/css/mic_main.css" />
+    <link rel="preload" href="/css/dropdownMenu.css" as="style">
     <link rel="stylesheet" href="/css/dropdownMenu.css" />
+    <!-- Preload LCP image (background) for faster Largest Contentful Paint -->
+    
+    <link rel="preload" href="/img/bg.jpg" as="image" fetchpriority="high">
+    
+    <!-- Preload main-first image for homepage (high priority LCP candidate) -->
+    
+    <!-- Preload first post thumbnail on paginated pages (intro hidden, likely LCP) -->
+    
 
 
     <meta name="title" content="Authentic Chinese Tattoo Designs &amp; Calligraphy Art | Lán Ink Studio" />
@@ -50,7 +65,17 @@
           right: 0;
           bottom: 0;
           left: 0;
-          background-size: cover; 
+          background-size: cover;
+          will-change: transform; /* Optimize for compositing */
+          image-rendering: -webkit-optimize-contrast; /* Optimize image rendering */
+        }
+        /* Optimize image loading and rendering */
+        img[loading="lazy"] {
+          content-visibility: auto;
+        }
+        /* Reduce layout shifts */
+        .page_title {
+          min-height: 200px; /* Prevent layout shift */
         }
     </style>
 
@@ -60,36 +85,6 @@
     <!-- Google Structured Data Markup for Articles -->
     
     
-			    
-  
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({
-        tex2jax: {
-          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
-          processEscapes: true,
-          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-        }
-      });
-    </script>
-
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax(), i;
-        for (i=0; i < all.length; i += 1) {
-          all[i].SourceElement().parentNode.className += ' has-jax';
-        }
-      });
-    </script>
-    <script async type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
-  
-
-
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/jquery.scrollex.min.js"></script>
-    <script src="/js/jquery.scrolly.min.js"></script>
-    <script src="/js/skel.min.js"></script>
-    <script src="/js/util.js"></script>
-    <script src="/js/main.js"></script>
 	
 <meta name="generator" content="Hexo 8.0.0"></head>
     
@@ -292,21 +287,15 @@
 </nav>
                         <div id="main">
             <!-- Main first s-->
-            <article id="me" class="panel" style="background-image: url('img/home_page.jpg');background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;"> 
+            <article id="me" class="panel" style="background-image: url('img/main-first.jpg');background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;will-change: transform;"> 
                 <header style="color: #000000">
-                    <!-- <h1>Lán Ink Studio</h1> -->
                     <h2 class="para0">Chinese Tattoo Designs</h2>
                     <h1 class="para1">Handwritten Chinese Calligraphy Tattoo Designs</h1>
                     <h2 class="para2">Buy Ready-made Artwork or Request a Custom Piece</h2>
                     <h2 class="para3">Ready-made Artwork or Custom Requests</h2>
-                    <!-- <p class="para3"><span>Ready-made Artwork or Custom Requests&nbsp&nbsp</span></p>
-                    <p class="para4"></p> -->
-                    <a target="_self" href="/shop/" class="image-link"><img src="/images/buttons/shop_now.png" class="shop-now" alt="shop Now button"></a>
+                    <a target="_self" href="/shop/" class="image-link"><img src="/images/buttons/shop_now.png" class="shop-now" alt="shop Now button" loading="lazy" width="200" height="60" decoding="async"></a>
                 </header>
-                <a href="/shop/" class="jumplink pic">
-                    <span class="arrow icon fa-chevron-right"><span></span></span>
-                    <img src="" alt="" />
-                </a>
+                
             </article>
             <!-- Main first e-->
         </div>
@@ -331,5 +320,37 @@
 </body>
 
 
+		<!-- Load JavaScript at end of body for better performance -->
+		    
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script async type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+    <!-- JavaScript files loaded with defer for non-blocking execution -->
+    <script src="/js/jquery.min.js" defer></script>
+    <script src="/js/jquery.scrollex.min.js" defer></script>
+    <script src="/js/jquery.scrolly.min.js" defer></script>
+    <script src="/js/skel.min.js" defer></script>
+    <script src="/js/util.js" defer></script>
+    <script src="/js/main.js" defer></script>
  	
 </html>

@@ -1,30 +1,47 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 
 <head>
-	<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WBL9JH4MGK"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-WBL9JH4MGK');
-</script>
+	<!-- Resource Hints for Performance -->
+	<link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+	<link rel="dns-prefetch" href="https://www.googletagmanager.com">
+	
+	
+	<!-- Google tag (gtag.js) - Optimized for performance -->
+	<script>
+		// Initialize Google Analytics
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-WBL9JH4MGK');
+	</script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-WBL9JH4MGK"></script>
+	
 	<link rel="icon" type="image/x-icon" href="/favicon.ico">
 	<link rel="icon" type="image/png" sizes="48x48" href="/favicon.png">
-	<link rel="shortcut icon" type="image/png" href="/favicon.png">  
-	
+	<link rel="shortcut icon" type="image/png" href="/favicon.png">
 	<!-- <link rel="bookmark"  type="image/x-icon"  href="favicon.png"/> -->
-	<!-- <link rel="icon" type="image/x-icon" href="favicon.png"> -->
 	<meta http-equiv='content-language' content='en-us'>
 	
 			    
     <title>Authentic Chinese Tattoo Designs &amp; Calligraphy Art | Lán Ink Studio</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <!-- Preload critical CSS for faster rendering -->
+    <link rel="preload" href="/css/mic_main.css" as="style">
     <link rel="stylesheet" href="/css/mic_main.css" />
+    <link rel="preload" href="/css/dropdownMenu.css" as="style">
     <link rel="stylesheet" href="/css/dropdownMenu.css" />
+    <!-- Preload LCP image (background) for faster Largest Contentful Paint -->
+    
+    <link rel="preload" href="/img/bg.jpg" as="image" fetchpriority="high">
+    
+    <!-- Preload main-first image for homepage (high priority LCP candidate) -->
+    
+    <!-- Preload first post thumbnail on paginated pages (intro hidden, likely LCP) -->
+    
+    <link rel="preload" href="/images/thumbnail_main/main_light.jpg" as="image" fetchpriority="high">
+    
 
 
     <meta name="title" content="Authentic Chinese Tattoo Designs &amp; Calligraphy Art | Lán Ink Studio" />
@@ -50,7 +67,17 @@
           right: 0;
           bottom: 0;
           left: 0;
-          background-size: cover; 
+          background-size: cover;
+          will-change: transform; /* Optimize for compositing */
+          image-rendering: -webkit-optimize-contrast; /* Optimize image rendering */
+        }
+        /* Optimize image loading and rendering */
+        img[loading="lazy"] {
+          content-visibility: auto;
+        }
+        /* Reduce layout shifts */
+        .page_title {
+          min-height: 200px; /* Prevent layout shift */
         }
     </style>
 
@@ -60,36 +87,6 @@
     <!-- Google Structured Data Markup for Articles -->
     
     
-			    
-  
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({
-        tex2jax: {
-          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
-          processEscapes: true,
-          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-        }
-      });
-    </script>
-
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax(), i;
-        for (i=0; i < all.length; i += 1) {
-          all[i].SourceElement().parentNode.className += ' has-jax';
-        }
-      });
-    </script>
-    <script async type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
-  
-
-
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/jquery.scrollex.min.js"></script>
-    <script src="/js/jquery.scrolly.min.js"></script>
-    <script src="/js/skel.min.js"></script>
-    <script src="/js/util.js"></script>
-    <script src="/js/main.js"></script>
 	
 <meta name="generator" content="Hexo 8.0.0"></head>
     
@@ -100,22 +97,6 @@
         
         
         <!-- Intro 头部显示 e -->
-        <!-- Scroll to header on paginated pages -->
-        
-        <script>
-        (function(){
-            // Scroll to header on paginated pages (when intro is hidden server-side)
-            setTimeout(function() {
-                var headerEl = document.getElementById('header');
-                if (headerEl) {
-                    headerEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                } else {
-                    window.scrollTo(0, 0);
-                }
-            }, 100);
-        })();
-        </script>
-        
         <!-- Header 头部logo start -->
         <header id="header">
     <a href="/" class="logo">Lán Ink Studio</a>
@@ -183,46 +164,6 @@
 			</ul>
 </nav>
         <!-- Nav 导航条 end -->
-        <script>
-        (function() {
-            // Hide intro when clicking homepage button in nav
-            function setupHomepageClick() {
-                var nav = document.getElementById('nav');
-                if (nav) {
-                    var homepageLink = nav.querySelector('.menu.links li:first-child a');
-                    if (homepageLink) {
-                        homepageLink.addEventListener('click', function(e) {
-                            var intro = document.getElementById('intro');
-                            if (intro) {
-                                intro.style.display = 'none';
-                            }
-                            // If navigating to homepage, set flag to hide on next page load
-                            var href = homepageLink.getAttribute('href');
-                            if (href && href !== window.location.pathname) {
-                                sessionStorage.setItem('hideIntroOnHomepage', 'true');
-                            }
-                        });
-                    }
-                }
-            }
-            
-            // Setup click handler
-            if (document.readyState === 'loading') {
-                document.addEventListener('DOMContentLoaded', setupHomepageClick);
-            } else {
-                setupHomepageClick();
-            }
-            
-            // Check on page load if we should hide intro
-            if (sessionStorage.getItem('hideIntroOnHomepage') === 'true') {
-                var intro = document.getElementById('intro');
-                if (intro) {
-                    intro.style.display = 'none';
-                }
-                sessionStorage.removeItem('hideIntroOnHomepage');
-            }
-        })();
-        </script>
         <!-- Main 主要部分 start -->
         
         <!-- 文章列表   s -->
@@ -235,7 +176,7 @@
                     <div class="6u 12u(narrower)">
                         <section class="link_box special">
                            <a href="/Virtues-and-Values/light/">
-                            <div class="page_title" style="background-image: url(/images/thumbnail_main/main_light.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">
+                            <div class="page_title" style="background-image: url(/images/thumbnail_main/main_light.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;will-change: transform;">
                                 <!--标题-->
                                 <h2 class="page_title_text"> Light </h2>
                                 <!--段落-->
@@ -511,43 +452,10 @@
         <!-- Main 主要部分 end -->
         <!-- footer  页码 start-->
         <footer style="text-align: center; padding-top: 2em;">
-  
+    
     <div class="pagination" >
         <a class="extend prev" rel="prev" href="/archives/2025/10/">pre</a><a class="page-number" href="/archives/2025/10/">1</a><span class="page-number current">2</span>
     </div>  
-    <script>
-    (function(){
-        // Handle pagination clicks - hide intro and scroll to header
-        document.addEventListener('DOMContentLoaded', function() {
-            var paginationLinks = document.querySelectorAll('.pagination a');
-            paginationLinks.forEach(function(link) {
-                link.addEventListener('click', function(e) {
-                    // Store flag in sessionStorage to hide intro on next page
-                    sessionStorage.setItem('hideIntroOnLoad', 'true');
-                });
-            });
-            
-            // On page load, check if we should hide intro and scroll to header
-            if (sessionStorage.getItem('hideIntroOnLoad') === 'true') {
-                var introEl = document.getElementById('intro');
-                if (introEl) {
-                    introEl.style.display = 'none';
-                }
-                // Scroll to header section
-                setTimeout(function() {
-                    var headerEl = document.getElementById('header');
-                    if (headerEl) {
-                        headerEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                    } else {
-                        window.scrollTo(0, 0);
-                    }
-                }, 100);
-                // Clear the flag
-                sessionStorage.removeItem('hideIntroOnLoad');
-            }
-        });
-    })();
-    </script>
     
 </footer>
 
@@ -566,9 +474,93 @@
         <!-- Copyright 版权 end -->
     </div>
     <!-- Wrapper 外包 e-->
-    <!-- Scripts -->
+    <!-- Optimized inline scripts - combined and deferred -->
     <script>
 (function() {
+    'use strict';
+    
+    // Combined initialization function
+    function initPage() {
+        // Intro visibility logic
+        try {
+            var path = String(location.pathname || '').replace(/^\/+/, '');
+            var urlParams = new URLSearchParams(window.location.search);
+            var pageNum = urlParams.get('page') || (path.match(/\/page\/(\d+)/) ? path.match(/\/page\/(\d+)/)[1] : null);
+            var shouldHideIntro = false;
+            
+            // Check pagination
+            if (pageNum && parseInt(pageNum) > 1) {
+                shouldHideIntro = true;
+            }
+            
+            // Check categories
+            if (!shouldHideIntro && path.indexOf('categories/') === 0) {
+                var parts = path.split('/');
+                var slug = parts.length > 1 ? parts[1] : '';
+                var list = ["Virtues-and-Values","Cultural-and-Heritage","Fun-and-Quirky","Food-and-Flavor","Minimal-and-Aesthetic","Whimsical-and-Cute"];
+                if (Array.isArray(list) && list.indexOf(slug) !== -1) {
+                    shouldHideIntro = true;
+                }
+            }
+            
+            // Check sessionStorage for homepage
+            if (sessionStorage.getItem('hideIntroOnHomepage') === 'true') {
+                shouldHideIntro = true;
+                sessionStorage.removeItem('hideIntroOnHomepage');
+            }
+            
+            // Check sessionStorage for pagination
+            if (sessionStorage.getItem('hideIntroOnLoad') === 'true') {
+                shouldHideIntro = true;
+                sessionStorage.removeItem('hideIntroOnLoad');
+            }
+            
+            if (shouldHideIntro) {
+                var introEl = document.getElementById('intro');
+                if (introEl) introEl.style.display = 'none';
+                
+                // Scroll to header
+                setTimeout(function() {
+                    var headerEl = document.getElementById('header');
+                    if (headerEl) {
+                        headerEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    } else {
+                        window.scrollTo(0, 0);
+                    }
+                }, 100);
+            }
+        } catch (e) {
+            console.warn('Intro visibility check failed:', e);
+        }
+        
+        // Setup homepage click handler
+        var nav = document.getElementById('nav');
+        if (nav) {
+            var homepageLink = nav.querySelector('.menu.links li:first-child a');
+            if (homepageLink) {
+                homepageLink.addEventListener('click', function(e) {
+                    var intro = document.getElementById('intro');
+                    if (intro) intro.style.display = 'none';
+                    var href = homepageLink.getAttribute('href');
+                    if (href && href !== window.location.pathname) {
+                        sessionStorage.setItem('hideIntroOnHomepage', 'true');
+                    }
+                });
+            }
+        }
+        
+        // Setup pagination click handlers
+        var paginationLinks = document.querySelectorAll('.pagination a');
+        paginationLinks.forEach(function(link) {
+            link.addEventListener('click', function(e) {
+                sessionStorage.setItem('hideIntroOnLoad', 'true');
+            });
+        });
+        
+        // Font size adjustment for page titles
+        adjustPageTitleFontSize();
+    }
+    
     /**
      * Automatically adjust font size of page_title h2 elements
      * when text wraps to more than two lines
@@ -577,49 +569,34 @@
         var pageTitleH2s = document.querySelectorAll('.page_title h2');
         
         pageTitleH2s.forEach(function(h2) {
-            // Reset to original font size first
             h2.style.fontSize = '';
             var computedStyle = window.getComputedStyle(h2);
             var originalFontSizePx = parseFloat(computedStyle.fontSize);
             var lineHeight = parseFloat(computedStyle.lineHeight);
             
-            // If lineHeight is a number (not 'normal'), use it; otherwise calculate from font size
             if (isNaN(lineHeight) || lineHeight === 0) {
                 lineHeight = originalFontSizePx * 1.3;
             }
             
-            // Convert to rem for consistency (assuming 16px base)
             var rootFontSize = parseFloat(window.getComputedStyle(document.documentElement).fontSize) || 16;
             var originalFontSizeRem = originalFontSizePx / rootFontSize;
-            
-            // Calculate expected height for 2 lines
             var maxHeight = lineHeight * 2;
-            
-            // Get actual height
             var actualHeight = h2.scrollHeight;
             
-            // If text wraps to more than 2 lines, reduce font size
             if (actualHeight > maxHeight) {
-                var minFontSizeRem = originalFontSizeRem * 0.5; // Don't go below 50% of original
-                
-                // Binary search approach for better performance
+                var minFontSizeRem = originalFontSizeRem * 0.5;
                 var low = minFontSizeRem;
                 var high = originalFontSizeRem;
                 var bestSize = originalFontSizeRem;
-                
-                // Try reducing font size until it fits
                 var iterations = 0;
-                var maxIterations = 20; // Safety limit
+                var maxIterations = 20;
                 
                 while (high - low > 0.05 && iterations < maxIterations) {
                     iterations++;
                     var mid = (low + high) / 2;
                     h2.style.fontSize = mid + 'rem';
+                    h2.offsetHeight; // Force reflow
                     
-                    // Force reflow
-                    h2.offsetHeight;
-                    
-                    // Recalculate line height with new font size
                     var newComputedStyle = window.getComputedStyle(h2);
                     var newFontSizePx = parseFloat(newComputedStyle.fontSize);
                     var newLineHeight = parseFloat(newComputedStyle.lineHeight);
@@ -637,27 +614,25 @@
                     }
                 }
                 
-                // Apply the best size found
                 h2.style.fontSize = bestSize + 'rem';
             }
         });
     }
     
-    // Run when DOM is ready
+    // Initialize when DOM is ready
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', function() {
-            // Wait a bit for images to load and layout to settle
+            initPage();
             setTimeout(adjustPageTitleFontSize, 100);
-            // Also run after images load
             window.addEventListener('load', adjustPageTitleFontSize);
         });
     } else {
-        // DOM already loaded
+        initPage();
         setTimeout(adjustPageTitleFontSize, 100);
         window.addEventListener('load', adjustPageTitleFontSize);
     }
     
-    // Re-adjust on window resize
+    // Re-adjust on window resize (debounced)
     var resizeTimer;
     window.addEventListener('resize', function() {
         clearTimeout(resizeTimer);
@@ -667,5 +642,37 @@
 </script>
 </body>
 
+		<!-- Load JavaScript at end of body for better performance -->
+		    
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script async type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+    <!-- JavaScript files loaded with defer for non-blocking execution -->
+    <script src="/js/jquery.min.js" defer></script>
+    <script src="/js/jquery.scrollex.min.js" defer></script>
+    <script src="/js/jquery.scrolly.min.js" defer></script>
+    <script src="/js/skel.min.js" defer></script>
+    <script src="/js/util.js" defer></script>
+    <script src="/js/main.js" defer></script>
  	
 </html>

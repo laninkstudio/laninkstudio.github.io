@@ -1,30 +1,45 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 
 <head>
-	<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WBL9JH4MGK"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-WBL9JH4MGK');
-</script>
+	<!-- Resource Hints for Performance -->
+	<link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+	<link rel="dns-prefetch" href="https://www.googletagmanager.com">
+	
+	
+	<!-- Google tag (gtag.js) - Optimized for performance -->
+	<script>
+		// Initialize Google Analytics
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-WBL9JH4MGK');
+	</script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-WBL9JH4MGK"></script>
+	
 	<link rel="icon" type="image/x-icon" href="/favicon.ico">
 	<link rel="icon" type="image/png" sizes="48x48" href="/favicon.png">
-	<link rel="shortcut icon" type="image/png" href="/favicon.png">  
-	
+	<link rel="shortcut icon" type="image/png" href="/favicon.png">
 	<!-- <link rel="bookmark"  type="image/x-icon"  href="favicon.png"/> -->
-	<!-- <link rel="icon" type="image/x-icon" href="favicon.png"> -->
 	<meta http-equiv='content-language' content='en-us'>
 	
 			    
     <title>Chinese Character &amp; Symbol Tattoos | Authentic Designs &amp; Meanings</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <!-- Preload critical CSS for faster rendering -->
+    <link rel="preload" href="/css/mic_main.css" as="style">
     <link rel="stylesheet" href="/css/mic_main.css" />
+    <link rel="preload" href="/css/dropdownMenu.css" as="style">
     <link rel="stylesheet" href="/css/dropdownMenu.css" />
+    <!-- Preload LCP image (background) for faster Largest Contentful Paint -->
+    
+    <link rel="preload" href="/img/bg.jpg" as="image" fetchpriority="high">
+    
+    <!-- Preload main-first image for homepage (high priority LCP candidate) -->
+    
+    <!-- Preload first post thumbnail on paginated pages (intro hidden, likely LCP) -->
+    
 
 
     <meta name="title" content="Chinese Character &amp; Symbol Tattoos | Authentic Designs &amp; Meanings" />
@@ -50,7 +65,17 @@
           right: 0;
           bottom: 0;
           left: 0;
-          background-size: cover; 
+          background-size: cover;
+          will-change: transform; /* Optimize for compositing */
+          image-rendering: -webkit-optimize-contrast; /* Optimize image rendering */
+        }
+        /* Optimize image loading and rendering */
+        img[loading="lazy"] {
+          content-visibility: auto;
+        }
+        /* Reduce layout shifts */
+        .page_title {
+          min-height: 200px; /* Prevent layout shift */
         }
     </style>
 
@@ -60,36 +85,6 @@
     <!-- Google Structured Data Markup for Articles -->
     
     
-			    
-  
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({
-        tex2jax: {
-          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
-          processEscapes: true,
-          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-        }
-      });
-    </script>
-
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax(), i;
-        for (i=0; i < all.length; i += 1) {
-          all[i].SourceElement().parentNode.className += ' has-jax';
-        }
-      });
-    </script>
-    <script async type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
-  
-
-
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/jquery.scrollex.min.js"></script>
-    <script src="/js/jquery.scrolly.min.js"></script>
-    <script src="/js/skel.min.js"></script>
-    <script src="/js/util.js"></script>
-    <script src="/js/main.js"></script>
 	
 <meta name="generator" content="Hexo 8.0.0"></head>
     
@@ -354,5 +349,37 @@
 
 
 
+		<!-- Load JavaScript at end of body for better performance -->
+		    
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script async type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+    <!-- JavaScript files loaded with defer for non-blocking execution -->
+    <script src="/js/jquery.min.js" defer></script>
+    <script src="/js/jquery.scrollex.min.js" defer></script>
+    <script src="/js/jquery.scrolly.min.js" defer></script>
+    <script src="/js/skel.min.js" defer></script>
+    <script src="/js/util.js" defer></script>
+    <script src="/js/main.js" defer></script>
  	
 </html>
