@@ -257,11 +257,11 @@
 			}
 
 		body.is-loading #intro {
-			-moz-transform: translateY(2rem);
+			/* -moz-transform: translateY(2rem);
 			-webkit-transform: translateY(2rem);
 			-ms-transform: translateY(2rem);
 			transform: translateY(2rem);
-			opacity: 0;
+			opacity: 0; */
 		}
 
 			body.is-loading #intro:not(.hidden) + #header + #nav {
@@ -311,7 +311,7 @@
 
 			#intro {
 				padding: 3rem 1.5rem 1rem 1.5rem ;
-				min-height: 100vh;
+				min-height: 90vh;
 			}
 
 				#intro h2 {
