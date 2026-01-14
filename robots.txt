@@ -1,4 +1,3 @@
 User-agent: *
-Disallow: /fonts/
 Disallow: /gallery/
 Sitemap: https://laninkstudio.com/sitemap.xml
