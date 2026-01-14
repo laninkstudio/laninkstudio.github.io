@@ -11,6 +11,42 @@
   </url>
   
   <url>
+    <loc>https://laninkstudio.github.io/Virtues-and-Values/dream/</loc>
+    
+    <lastmod>2026-01-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://laninkstudio.github.io/Minimal-and-Aesthetic/rain/</loc>
+    
+    <lastmod>2026-01-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://laninkstudio.github.io/Virtues-and-Values/destiny/</loc>
+    
+    <lastmod>2026-01-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://laninkstudio.github.io/Food-and-Flavor/dumplings/</loc>
+    
+    <lastmod>2026-01-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://laninkstudio.github.io/blog/how-to-choose-your-chinese-tattoo-expert-tips-from-a-chinese-calligrapher/</loc>
     
     <lastmod>2026-01-13</lastmod>
@@ -209,15 +245,6 @@
   </url>
   
   <url>
-    <loc>https://laninkstudio.github.io/Minimal-and-Aesthetic/rain/</loc>
-    
-    <lastmod>2026-01-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://laninkstudio.github.io/Food-and-Flavor/noodles/</loc>
     
     <lastmod>2026-01-06</lastmod>
@@ -317,33 +344,6 @@
   </url>
   
   <url>
-    <loc>https://laninkstudio.github.io/Food-and-Flavor/dumplings/</loc>
-    
-    <lastmod>2026-01-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://laninkstudio.github.io/Virtues-and-Values/dream/</loc>
-    
-    <lastmod>2026-01-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://laninkstudio.github.io/Virtues-and-Values/destiny/</loc>
-    
-    <lastmod>2026-01-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://laninkstudio.github.io/shop/index.html</loc>
     
     <lastmod>2025-12-05</lastmod>
@@ -398,14 +398,14 @@
 
   
   <url>
-    <loc>https://laninkstudio.github.io/categories/Virtues-and-Values/</loc>
+    <loc>https://laninkstudio.github.io/categories/Cultural-and-Heritage/</loc>
     <lastmod>2026-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://laninkstudio.github.io/categories/Cultural-and-Heritage/</loc>
+    <loc>https://laninkstudio.github.io/categories/Virtues-and-Values/</loc>
     <lastmod>2026-01-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

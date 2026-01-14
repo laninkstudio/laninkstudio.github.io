@@ -85,6 +85,41 @@
 }
     </script>
     
+    <!-- BreadcrumbList Structured Data -->
+    
+    <script type="application/ld+json">
+    {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://laninkstudio.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Categories",
+      "item": "https://laninkstudio.com/shop/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Minimal and Aesthetic",
+      "item": "https://laninkstudio.com/categories/Minimal-and-Aesthetic/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Mountain | Handwritten Chinese Calligraphy Tattoo Design",
+      "item": "https://laninkstudio.com/Minimal-and-Aesthetic/mountain/"
+    }
+  ]
+}
+    </script>
+    
 
     <!-- Google Structured Data Markup for Articles -->
     
@@ -202,6 +237,24 @@
         <div id="main" >
             
                 <div class="typo" style="padding: 3rem; background-color: #fff7e3;">
+                    <!-- Breadcrumbs -->
+                    <!-- Breadcrumb Navigation -->
+                    <nav>
+                        <div class="post-breadcrumb">
+                            <a href="/">Home</a>
+                            <span class="breadcrumb-separator">›</span>
+                            <a href="/shop/">Categories</a>
+                            <span class="breadcrumb-separator">›</span>
+                            
+                            
+                                <a href="/categories/Minimal-and-Aesthetic/">Minimal and Aesthetic</a>
+                                
+                                    
+                                    <span class="breadcrumb-separator">›</span>
+                                    <span class="breadcrumb-current">Mountain</span>
+                        </div>
+                    </nav>
+
                     
 
                     

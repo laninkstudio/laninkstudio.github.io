@@ -85,6 +85,41 @@
 }
     </script>
     
+    <!-- BreadcrumbList Structured Data -->
+    
+    <script type="application/ld+json">
+    {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://laninkstudio.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Categories",
+      "item": "https://laninkstudio.com/shop/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Cultural and Heritage",
+      "item": "https://laninkstudio.com/categories/Cultural-and-Heritage/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "God | Handwritten Chinese Calligraphy Tattoo Design",
+      "item": "https://laninkstudio.com/Cultural-and-Heritage/god/"
+    }
+  ]
+}
+    </script>
+    
 
     <!-- Google Structured Data Markup for Articles -->
     
@@ -202,6 +237,24 @@
         <div id="main" >
             
                 <div class="typo" style="padding: 3rem; background-color: #fff7e3;">
+                    <!-- Breadcrumbs -->
+                    <!-- Breadcrumb Navigation -->
+                    <nav>
+                        <div class="post-breadcrumb">
+                            <a href="/">Home</a>
+                            <span class="breadcrumb-separator">›</span>
+                            <a href="/shop/">Categories</a>
+                            <span class="breadcrumb-separator">›</span>
+                            
+                            
+                                <a href="/categories/Cultural-and-Heritage/">Cultural and Heritage</a>
+                                
+                                    
+                                    <span class="breadcrumb-separator">›</span>
+                                    <span class="breadcrumb-current">God</span>
+                        </div>
+                    </nav>
+
                     
 
                                    
