@@ -555,6 +555,14 @@ td.button_cell {
   vertical-align: middle;
 }
 
+.payhip-buy-button {
+  color: #ffffff !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 8px 20px;
+  border-radius: 5px;
+  background-color: #79572a;
+}
 /* .foodandflavor_section_3_image {
   width: 65%; 
   height: auto; 
