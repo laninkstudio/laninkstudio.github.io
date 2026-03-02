@@ -1,0 +1,214 @@
+/**
+ * Snipcart v3 theme – matches site palette (warm neutrals, #815f41, #fff7e3)
+ * Docs: https://docs.snipcart.com/v3/setup/theming
+ */
+#snipcart {
+  /* ----------------- Typography ----------------- */
+  font-family: PingFang SC, Verdana, Helvetica Neue, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+
+  /* ----------------- Colors ----------------- */
+  --color-default: #2a2a2a;
+  --color-alt: #5c5349;
+  --color-icon: #815f41;
+  --color-success: #2d6a4f;
+  --color-error: #b5413e;
+
+  --color-link: #815f41;
+  --color-link-hover: #6b4f35;
+  --color-link-active: var(--color-link);
+  --color-link-focus: var(--color-link);
+
+  --color-input: var(--color-default);
+  --color-input-hover: var(--color-input);
+  --color-input-focus: var(--color-input);
+  --color-input-checked: var(--color-input);
+  --color-input-disabled: var(--color-alt);
+  --color-input-error: var(--color-error);
+  --color-inputLabel: var(--color-default);
+  --color-inputLabel-hover: var(--color-inputLabel);
+  --color-inputLabel-focus: var(--color-inputLabel);
+  --color-inputIcon: var(--color-alt);
+  --color-inputIcon-hover: var(--color-default);
+  --color-inputIcon-focus: var(--color-inputIcon);
+  --color-inputIcon-checked: var(--color-default);
+  --color-inputIcon-error: var(--color-error);
+  --color-inputPlaceholder: var(--color-alt);
+
+  --color-buttonPrimary: #fff;
+  --color-buttonPrimary-hover: #fff;
+  --color-buttonPrimary-active: var(--color-buttonPrimary);
+  --color-buttonPrimary-focus: var(--color-buttonPrimary);
+  --color-buttonPrimary-disabled: var(--color-alt);
+  --color-buttonPrimary-success: var(--color-buttonPrimary);
+  --color-buttonPrimary-error: var(--color-buttonPrimary);
+
+  --color-buttonSecondary: var(--color-default);
+  --color-buttonSecondary-hover: var(--color-default);
+  --color-buttonSecondary-active: var(--color-buttonSecondary);
+  --color-buttonSecondary-focus: var(--color-buttonSecondary);
+  --color-buttonSecondary-disabled: #8a8279;
+  --color-buttonSecondary-success: var(--color-success);
+  --color-buttonSecondary-error: var(--color-error);
+
+  --color-buttonDanger: #fff;
+  --color-buttonDanger-hover: #fff;
+  --color-buttonDanger-active: var(--color-buttonDanger);
+  --color-buttonDanger-focus: var(--color-buttonDanger);
+  --color-buttonDanger-disabled: var(--color-alt);
+  --color-buttonDanger-success: var(--color-default);
+  --color-buttonDanger-error: var(--color-default);
+
+  --color-badge: var(--color-link);
+  --color-badge-active: var(--color-link);
+  --color-badge-disabled: var(--color-alt);
+
+  /* ----------------- Border colors ----------------- */
+  --borderColor-default: #e8e0d5;
+  --borderColor-error: #8b2e2c;
+
+  --borderColor-link: currentColor;
+  --borderColor-link-hover: currentColor;
+  --borderColor-link-active: currentColor;
+  --borderColor-link-focus: currentColor;
+
+  --borderColor-input: #e8e0d5;
+  --borderColor-input-hover: #815f41;
+  --borderColor-input-focus: var(--borderColor-input-hover);
+  --borderColor-input-checked: var(--borderColor-input-hover);
+  --borderColor-input-disabled: #d4cdc4;
+  --borderColor-input-error: var(--borderColor-error);
+
+  --borderColor-buttonPrimary: transparent;
+  --borderColor-buttonPrimary-hover: transparent;
+  --borderColor-buttonPrimary-focus: transparent;
+  --borderColor-buttonPrimary-disabled: transparent;
+  --borderColor-buttonPrimary-success: transparent;
+  --borderColor-buttonPrimary-error: transparent;
+
+  --borderColor-buttonSecondary: transparent;
+  --borderColor-buttonSecondary-hover: transparent;
+  --borderColor-buttonSecondary-focus: transparent;
+  --borderColor-buttonSecondary-disabled: transparent;
+  --borderColor-buttonSecondary-success: transparent;
+  --borderColor-buttonSecondary-error: transparent;
+
+  --borderColor-badge: transparent;
+  --borderColor-badge-active: transparent;
+  --borderColor-badge-disabled: transparent;
+
+  /* ----------------- Background colors ----------------- */
+  --bgColor-default: #fff7e3;
+  --bgColor-alt: #f5f2ed;
+  --bgColor-success: #d8f3dc;
+  --bgColor-error: #fce4ec;
+  --bgColor-info: #e8e0d5;
+
+  --bgColor-modal: #fdfcfa;
+  --bgColor-modalVeil: rgba(42, 42, 42, 0.4);
+
+  --bgColor-link: none;
+  --bgColor-link-hover: none;
+  --bgColor-link-active: none;
+  --bgColor-link-focus: rgba(129, 95, 65, 0.08);
+
+  --bgColor-input: #fff;
+  --bgColor-input-hover: var(--bgColor-input);
+  --bgColor-input-focus: var(--bgColor-input);
+  --bgColor-input-checked: var(--borderColor-input-hover);
+  --bgColor-input-disabled: #f5f2ed;
+  --bgColor-input-error: var(--bgColor-input);
+  --bgColor-input-autofill: #fff7e3;
+
+  --bgColor-buttonPrimary: #815f41;
+  --bgColor-buttonPrimary-hover: #6b4f35;
+  --bgColor-buttonPrimary-active: var(--bgColor-buttonPrimary);
+  --bgColor-buttonPrimary-focus: var(--bgColor-buttonPrimary);
+  --bgColor-buttonPrimary-disabled: #c4b5a5;
+  --bgColor-buttonPrimary-success: var(--color-success);
+  --bgColor-buttonPrimary-error: #8b2e2c;
+
+  --bgColor-buttonSecondary: transparent;
+  --bgColor-buttonSecondary-hover: #f5f2ed;
+  --bgColor-buttonSecondary-active: var(--bgColor-buttonSecondary);
+  --bgColor-buttonSecondary-focus: var(--bgColor-buttonSecondary);
+  --bgColor-buttonSecondary-disabled: #e8e0d5;
+  --bgColor-buttonSecondary-success: var(--bgColor-success);
+  --bgColor-buttonSecondary-error: var(--bgColor-error);
+
+  --bgColor-buttonDanger: #b5413e;
+  --bgColor-buttonDanger-hover: #9a3735;
+  --bgColor-buttonDanger-active: var(--bgColor-buttonDanger);
+  --bgColor-buttonDanger-focus: var(--bgColor-buttonDanger);
+  --bgColor-buttonDanger-disabled: #c4b5a5;
+  --bgColor-buttonDanger-success: var(--color-success);
+  --bgColor-buttonDanger-error: #6b2321;
+
+  --bgColor-badge: rgba(129, 95, 65, 0.12);
+  --bgColor-badge-active: rgba(129, 95, 65, 0.2);
+  --bgColor-badge-disabled: #e8e0d5;
+
+  /* ----------------- Shadows ----------------- */
+  --shadow-default: 0 4px 20px -4px rgba(42, 42, 42, 0.12);
+  --shadow-tooltip: 0 4px 12px rgba(42, 42, 42, 0.15);
+
+  --shadow-link-focus: 0 0 0 2px rgba(129, 95, 65, 0.35);
+
+  --shadow-input-hover: none;
+  --shadow-input-focus: 0 0 0 2px rgba(129, 95, 65, 0.25);
+  --shadow-input-checked: none;
+
+  --shadow-buttonPrimary-hover: 0 4px 12px -2px rgba(129, 95, 65, 0.4);
+  --shadow-buttonPrimary-active: none;
+  --shadow-buttonPrimary-focus: 0 0 0 2px rgba(129, 95, 65, 0.5);
+
+  --shadow-buttonSecondary-hover: 0 2px 8px -2px rgba(42, 42, 42, 0.15);
+  --shadow-buttonSecondary-active: none;
+  --shadow-buttonSecondary-focus: 0 0 0 2px rgba(129, 95, 65, 0.35);
+
+  --shadow-buttonDanger-hover: 0 4px 12px -2px rgba(181, 65, 62, 0.35);
+  --shadow-buttonDanger-active: none;
+  --shadow-buttonDanger-focus: 0 0 0 2px rgba(181, 65, 62, 0.45);
+}
+
+/* ----- Page: "Add to cart" button (overrides theme's button/box-shadow) ----- */
+button.snipcart-add-item,
+.snipcart-add-item,
+.typo button.snipcart-add-item,
+.price_button_table button.snipcart-add-item {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #fff !important;
+  border: none !important;
+  border-width: 0 !important;
+  box-shadow: none !important;
+  outline: none;
+}
+button.snipcart-add-item:hover,
+button.snipcart-add-item:focus,
+button.snipcart-add-item:active,
+.snipcart-add-item:hover,
+.snipcart-add-item:focus,
+.snipcart-add-item:active {
+  color: #fff !important;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none;
+}
+
+/* ----- Cart panel: remove all button borders + set font (Snipcart injects #snipcart) ----- */
+#snipcart button,
+#snipcart [role="button"],
+#snipcart .snipcart-button,
+#snipcart [class*="Button"],
+#snipcart [class*="button"] {
+  border: none !important;
+  border-width: 0 !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+#snipcart button:focus,
+#snipcart [role="button"]:focus {
+  outline: none;
+  border: none !important;
+  box-shadow: none !important;
+}
