@@ -4678,6 +4678,14 @@
 	.post-content img{
 		max-width:100%; 
 	}
+	.post_page_title_img {
+		background-image: var(--bg-desktop);
+	}
+	@media screen and (max-width: 768px) {
+		.post_page_title_img {
+			background-image: var(--bg-mobile);
+		}
+	}
 	.post_page_title_img a{
 		position:absolute;
 		text-shadow:6px 5px 10px #000;
